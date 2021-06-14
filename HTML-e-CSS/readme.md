@@ -12,7 +12,7 @@
 | <footer | Rodapé de um documento ou seção, podendo incluir: data, autor, contatos e direitos autorais. |
 | <header |Usado para introduzir um documento ou seção e pode conter o elemento |
 | <nav | para inclusão de links de navegação. |
-| '<hgroup>' | Cria títulos e subtítulos a partir de tags "<h1>" a "<h6>", em que o maior é o título e os outros são subtítulos. |
+| `<hgroup>` | Cria títulos e subtítulos a partir de tags "<h1>" a "<h6>", em que o maior é o título e os outros são subtítulos. |
 | <mark | Destacar textos. |
 | <meter | Medição. Usado quando existe valor máximo e mínimo conhecidos. |
 | <nav | Usado para uma seção de navegação por links (menu). |
