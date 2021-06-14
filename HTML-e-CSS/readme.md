@@ -5,7 +5,8 @@
 | ------ | ------ |
 | `<article>` |Espaço na página para algum conteúdo independente, como texto, formulário.|
 | `<aside>` | Conteúdo relacionado com a página. |
-| `<command>`| Botão, radiobutton ou checkbox para formulários.<details>Detalhamento de uma parte da página. |
+| `<command>`| Botão, radiobutton ou checkbox para formulários. |
+|`<details>` | Detalhamento de uma parte da página. |
 | `<summary>` | Capitular ou sumário dentro da tag `<details>`. |
 | `<figure>` | Legenda em uma imagem ou vídeo. |
 | `<figcaption>` | Legenda da figura em uma seção. |
