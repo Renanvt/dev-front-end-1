@@ -42,6 +42,9 @@
 
 # Listagem de atributos
 
+
+| Atributo | Significado |
+| ------ | ------ |
 | Autocomplete |    Habilita o auto complemento nos campos (on / off ). |
 | Novalidate |      Ativa ou desativa validação de campos se ativado (on / off ). |
 | Autofocus  |     Foca o campo após página ser carregada pelo navegador. |
