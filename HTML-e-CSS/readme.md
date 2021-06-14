@@ -45,20 +45,20 @@
 
 | Atributo | Significado |
 | ------ | ------ |
-| Autocomplete |    Habilita o auto complemento nos campos (on / off ). |
-| Novalidate |      Ativa ou desativa validação de campos se ativado (on / off ). |
-| Autofocus  |     Foca o campo após página ser carregada pelo navegador. |
-| Formaction  |    Substitui ACTION no formulário com URL válida para onde enviar os dados quando o formulário for submetido. |
-| Formmethod  |    Substitui METHOD no formulário e define o método HTTP para o envio de dados para o URL usando GET, POST, PUT ou DELETE. |
-| Formnovalidate |      Substitui NOVALIDATE no formulário sendo TRUE para não validar. |
-| Formtarget |         Parâmetro para definir destino BLANK, SELF, _PARENT e TOP. |
-| Width e Height |      Largura e altura de campo do formulário (% ou px). |
-| List  |      Referência a DATALIST onde um elemento `<li` com nome ID se associe a ID. |   
-| Multiple |        Permite que o usuário selecione mais de um item em elemento. |
-| Pattern |    Cria restrições por expressões regulares: `<input pat-tern=”[0-9]{3}” name=”digito” required title=”Validação de Dados”/>`. |
-|  Placeholder |     Define ajuda para o usuário preencher campo com os dados corretos. |
-|   Step    |    Utilizado com tipos DATETIME, TIME, DATE, entre outros, para salto em intervalos numéricos. |
-|  Required  |      Dentro de um elemento INPUT torna o campo (validação ativada). |
+| `Autocomplete` |    Habilita o auto complemento nos campos (on / off ). |
+| `Novalidate` |      Ativa ou desativa validação de campos se ativado (on / off ). |
+| `Autofocus`  |     Foca o campo após página ser carregada pelo navegador. |
+| `Formaction`  |    Substitui ACTION no formulário com URL válida para onde enviar os dados quando o formulário for submetido. |
+| `Formmethod`  |    Substitui METHOD no formulário e define o método HTTP para o envio de dados para o URL usando GET, POST, PUT ou DELETE. |
+| `Formnovalidate` |      Substitui NOVALIDATE no formulário sendo TRUE para não validar. |
+| `Formtarget` |         Parâmetro para definir destino BLANK, SELF, _PARENT e TOP. |
+| `Width e Height` |      Largura e altura de campo do formulário (% ou px). |
+| `List`  |      Referência a DATALIST onde um elemento `<li` com nome ID se associe a ID. |   
+| `Multiple` |        Permite que o usuário selecione mais de um item em elemento. |
+| `Pattern` |    Cria restrições por expressões regulares: `<input pat-tern=”[0-9]{3}” name=”digito” required title=”Validação de Dados”/>`. |
+|  `Placeholder` |     Define ajuda para o usuário preencher campo com os dados corretos. |
+|  `Step`    |    Utilizado com tipos DATETIME, TIME, DATE, entre outros, para salto em intervalos numéricos. |
+|  `Required`  |      Dentro de um elemento INPUT torna o campo (validação ativada). |
         
             
         
