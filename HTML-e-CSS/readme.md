@@ -21,3 +21,39 @@
 | `<section>` | Seção de um documento, como capítulos, cabeçalhos, rodapés ou outras seções do documento. |
 | `<time>` | Definição de tempo ou data. |
 | `<wbr>` | Quebra de palavra. Para definir uma oportunidade de quebra de linha. |
+
+# Lista de campos type
+
+| Tag | Significado |
+| ------ | ------ |
+| `< color>` |mostra uma paleta de cores..|
+| `<date>` | mostra um calendário para escolha de meses e anos.. |
+| `<datetime>`|  ajusta data e hora. |
+|`<atetime-local>` | data e hora local. |
+| `<email >` | navegador valida o valor de um e-mail válido estando ativada a validação. |
+| `<month>` |    mostra no campo opção para navegação entre meses. |
+| `<number>` | valores “min” e “max” em intervalo de valores (step define valor para salto). |
+| `<range>` |   cria botão estilo deslizante.|
+| `<search>` |  usado para campos de pesquisa. |
+| `<tel>` |   usado para preencher campos com número de telefone. |
+| `<time>` | usado para mostrar a hora do sistema. |
+| `<url>` |   cria campos para entrada de endereços de e-mail seguindo o padrão URL. |
+| `<week >` | mostra campo formatado para escolha de dias de semana.A implementação desses elementos é feita usando a seguinte sintaxe: `<input type=“elemento” name=“nome_elemento”/>` |
+        
+              
+        
+            
+        
+              
+        
+             
+        
+             
+        
+           
+        
+           
+        
+           
+        
+               
