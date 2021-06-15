@@ -9,6 +9,8 @@
 |`<details>` | Detalhamento de uma parte da página. |
 | `<summary>` | Capitular ou sumário dentro da tag `<details>`. |
 | `<figure>` | Legenda em uma imagem ou vídeo. |
+| `<legend>` | Fará a inserção de um texto título para o conjunto de campos, permitindo melhor compreensão do agrupamento. |
+| `<fieldset>` |  delimita um conjunto de campos, agrupando para posterior envio em conjunto por meio da tag `<BUTTON>` |
 | `<figcaption>` | Legenda da figura em uma seção. |
 | `<footer>` | Rodapé de um documento ou seção, podendo incluir: data, autor, contatos e direitos autorais. |
 | `<header>` |Usado para introduzir um documento ou seção e pode conter o elemento |
@@ -43,7 +45,7 @@
 # Listagem de atributos
 
 
-| Atributo | Significado |
+| Atributo/Parâmetro | Significado |
 | ------ | ------ |
 | `Autocomplete` |    Habilita o auto complemento nos campos (on / off ). |
 | `Novalidate` |      Ativa ou desativa validação de campos se ativado (on / off ). |
@@ -59,11 +61,19 @@
 |  `Placeholder` |     Define ajuda para o usuário preencher campo com os dados corretos. |
 |  `Step`    |    Utilizado com tipos DATETIME, TIME, DATE, entre outros, para salto em intervalos numéricos. |
 |  `Required`  |      Dentro de um elemento INPUT torna o campo (validação ativada). |
+| `ENCTYPE=”APPLICATION/X-WWW-FORM-URLENCODED”` | Define o método de encriptação de dados utilizado no envio de dados. |
+| `ACCEPT-CHARSET=”UTF-8859”` | Define o conjunto de caracteres ASCII aceitos no preenchimento do formulário |
+| `Action` | Indica que, quando submetido, o formulário enviará dados ao local indicado entre aspas, sendo, normalmente, um servidor PHP para tratamento dos dados ou um e-mail. |
+| `Post` |  Outro parâmetro de `<FORM>` para definir o envio mais seguro dos dados sem exibição deles no endereço indicado na barra de endereços do navegador, ao passo que “GET” exibe esses dados na barra e não se preocupa com o ocultamento de dados |
+| `Onclick` | é um parâmetro para indicar uma ação para um clique do mouse, podendo exibir informações em caixas de mensagem. |
+        
+       
 
 # Listagem de tags formulários
 | Atributo | Significado |
 | ------ | ------ |
 | BUTTON | Cria botões de ação em formulários  |
+| LABEL | é a tag essencial para criação dos campos do formulário e utiliza parâmetros como `INPUT TYPE=”SEARCH”`, que define o tipo do campo que será criado, e `NAME=”CAMPO”`, que indica um nome que é extremamente importante para o posterior tratamento dos dados por um código PHP, por exemplo. |
 |      CHECKBOX   | Cria opção do tipo SIM/NÃO, estando ou não em agrupamento|
 |        COLOR  | Parâmetro de cor para campos|
 |       DATE  |  Cria campo do tipo data|
@@ -90,14 +100,121 @@
 |       OPTION   |   Parâmetro para definição do tipo de campo de agrupamento |
 |       VALUE    |   Parâmetro para definição de valor padrão de um campo |
         
-             
-        
-             
-        
+# Audio
+
+| Atributo | Significado |        
+| ------ | ------ |
+| `autostart` | Define se o som começará imediatamente, assim que a página abrir. Você pode ter um valor de verdadeiro ou falso aqui |
+| `volume` | Pode ter qualquer valor de 1 a 100. |
+| `autoplay` | Define que o audio começará a ser tocado assim que ele estiver pronto. |
+| `controls` | Os controles serão mostrados. |
+| `src` |  	URL do arquivo a ser tocado. |
+| `loop` | Define que o audio começará a ser tocado novamente quando terminar. |
+
+`
+<audio src="/test/audio.ogg">
+<p>Seu nevegador não suporta o elemento audio.</p>
+</audio>
+`
+
+`
+<audio src="audio.ogg" controls autoplay loop>
+<p>Seu navegador não suporta o elemento audio </p>
+</audio>
+`
+
+`
+<audio src="audio.mp3" preload="auto" controls></audio>
+`
+
+![CombatibilidadeAudio](HTML5/img/CombatibilidadedeAudio.png)
+![CombatibilidadeAudio2](HTML5/img/CombatibilidadedeAudio2.png)   
+
+# Video   
+| Atributo | Valores | Significado |        
+| ------ | ------ |
+| `preload` | `"none"`,  `"auto"` e `"metadata"` | não carrega o arquivo, carrega o arquivo e carrega apenas os meta dados do arquivo respectivamente | 
+| `poster` | especifica a imagem que será exibida antes do início da reprodução. Mais precisamente, antes da definição do formato que o navegador pode reproduzir |
+| `<object>` | diz ao navegador o que fazer se nenhum dos formatos não puder ser reproduzido. No nosso caso, o navegador tenta abrir o vídeo no flash player. Em caso de falha, dê uma mensagem de que o formato não é suportado. |
+
+`<video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
+  Seu navegador não suporta o elemento <code>video</code>.
+</video>` 
+
+
+`
+<video controls>
+  <source src="foo.ogg" type="video/ogg">
+  <source src="foo.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento <code>video</code>.
+</video>
+`
+Aqui é especificado que o vídeo usa os codecs Dirac e Speex. Se o navegador suportar Ogg, mas não suportar os codecs especificados, o vídeo não será reproduzido.
+`
+<video controls>
+  <source src="foo.ogg" type="video/ogg; codecs=dirac, speex">
+  Seu navegador não suporta o elemento <code>video</code>.
+</video>
+`
+#
+[Como inserir um vídeo do YouTube
+](HTML5/video/README.md)
+ ![CombatibilidadeVideo](HTML5/img/CombatibilidadeDeVideo.png)       
            
-        
-           
-        
-           
-        
-               
+# Comandos CSS
+
+Em geral, os comandos CSS são chamados seletores e seguem uma sintaxe como a do exemplo a seguir:
+`SELETOR {PROPRIEDADE:VALOR; PROPRIEDADE:VALOR;}`
+
+Um arquivo contendo os seletores de estilo CSS deve ser gravado em um arquivo de texto com a extensão .CSS e deve ser adicionado a um código HTML por meio da tag `<LINK>`, dentro do cabeçalho `<HEAD>`, como no exemplo:
+`
+        <head>
+               <link rel=”stylesheet” type=”text/css” href=”estilo.css”>
+        </head> 
+`
+
+É possível também utilizar um estilo CSS para configurar apenas uma tag html, tendo validade, apenas, enquanto a tag estiver ativa, como no exemplo a seguir:
+
+`
+ <h1>style=”color:blue;margin-left:30px;”>Texto</h1>
+ `
+ 
+ HTML5 introduziu um método para permitir que web designers possam as-sumir o controle sobre a janela de exibição, por meio do `<meta>` tag.
+    Você deve incluir o elemento `<meta>` dentro da área de cabeçalho `<HEAD>` para indicar as propriedades de exibição em todas as suas páginas web:
+`
+ <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+ `
+ Um `<meta>` elemento viewport dá as instruções do navegador sobre como controlar dimensões e escalonamento da página.
+    A largura = largura do dispositivo parte define a largura da página a seguir à tela de largura do dispositivo (que irá variar dependendo do dispositivo).
+    A escala inicial = 1,0 parte define o nível de zoom inicial, quando a página é carregada pela primeira vez pelo browser.
+    
+## Ter diferentes medidas para ajustar tamanho de fonte é útil?
+
+Imagine um site mobile ou um site para telas maiores ou projeções. Ao invés de você mudar as fontes para cada elemento, é possível ajustar diretamente o tamanho da fonte padrão para cada tag HTML de texto.
+
+Exemplo de código para ajuste de tamanho da fonte
+
+`
+body {font: 100% verdana, arial, sans-serif;}
+
+h1{  font-size: 2.50em;}
+
+h2{  font-size: 1.50em;}
+
+p{  font-size: 0.8em;}
+`
+Fonte:Unicesumar
+
+Mudando o valor de porcentagem da FONT do elemento BODY, proporcionalmente, a fonte e todo conteúdo padrão da página são ajustados.
+
+Outra unidade chamada REM também pode ser utilizada para referenciar ta-manho de fonte e funciona de maneira proporcional a medidas em pixels. A figura 11 mostra um exemplo de código utilizando essa unidade de medida.
+
+Exemplo de código para ajuste de tamanho da fonte
+`
+body {font: 100% verdana, arial,sans-serif;}
+h1 {  font-size: 3.00rem;}
+h2 {  font-size: 2.00rem;}
+p {  font-size: 1.50rem;}
+`
+Fonte: Unicesumar
+Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  ocorre  mais  com  navegadores  antigos,  em  que  é  interessante  o  uso  de  PX  ou porcentagem mesmo como unidade padrão.
