@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de código para exibição de video</title>
+</head>
+<body>
+    <!--Atributo poster - especifica a imagem que será exibida antes do início da reprodução. Mais precisamente, antes da definição do formato que o navegador pode reproduzir-->
+
+    <!-- a tag <object>, que diz ao navegador o que fazer se nenhum dos formatos não puder ser reproduzido. No nosso caso, o navegador tenta abrir o vídeo no flash player. Em caso de falha, dê uma mensagem de que o formato não é suportado.-->
+
+    <!--Preload Quando você adiciona esse atributo, o vídeo começa a carregar junto com o carregamento da página. Isso é muito conveniente, porque o usuário não precisa esperar até que o conteúdo seja totalmente carregado. Embora muitos usuários agora tenham uma conexão rápida à Internet e não há problemas com o carregamento de páginas. Além disso, é importante lembrar sobre usuários que não têm tráfego ilimitado e o carregamento automático sem permissão não será agradável para eles.-->
+
+    <!--Autoplay Com este atributo, o vídeo começa a ser reproduzido automaticamente após a página ser carregada. Este truque é muitas vezes presente nas páginas de venda para chamar a atenção de uma pessoa. Agora o Google Chrome proíbe a reprodução automática de vídeos.-->
+
+    <!--Controls Um parâmetro muito importante que adiciona controles de vídeo. Na verdade, este atributo é usado quase sempre, porque você precisa dar à pessoa a oportunidade de colocar filme em pausa ou rebobinar.-->
+
+    <!-- width e height São atributos obrigatórios para redimensionar a imagem. -->
+
+    <!--Loop  Esta opção define a repetição automática do vídeo após a conclusão da reprodução. -->
+
+    <!--  Como obter o código usando o programa
+
+    Adicione seu arquivo ao programa. Use o botão de vídeo para fazer isso ou simplesmente arraste o arquivo para o programa.
+    Clique no botão redondo HTML5 na parte inferior da tela. Selecione a resolução do seu vídeo de saída e clique em Converter. Como resultado, você receberá três arquivos de vídeo e uma página com HTML5 na pasta que será nomeada como seu ficheiro original.
+    Siga o guia "Como incorporar vídeo na sua página web", que se abre no seu navegador após a conclusão da conversão.
+
+Como inserir um vídeo do YouTube
+
+Se o clipe que você precisa estiver no YouTube, você pode simplesmente copiar o código pronto e colá-lo no editor (no modo html).
+
+    Abra o YouTube no seu computador e vá para a página de vídeo que deseja embedar.
+    Clique no botão Compartilhar abaixo do player.
+    Selecione Incorporar.
+    Copie o código.
+    Cole o código em seu blog ou site.
+
+Se você tem um site no wordpress, basta inserir o URL no lugar certo e o mecanismo irá incorporá-lo automaticamente na página. Esta é a maneira mais fácil.
+
+Com o advento de novas tags, a inserção de arquivos de mídia na página web tornou-se muito mais simples. Sem dúvida, qualquer desenvolvedor web precisa saber como isso é feito. Além disso, usando a tag video ou classes de estilo, você pode adicionar um quadro ou alguns outros elementos decorativos ao seu conteúdo visual.-->
+    <video controls>
+        <source src="../HTML5/video/Waves-70796.mp4" type="video/mp4">
+        <source  src="../HTML5/video/Waves-70796.mp4" type="video/mp4">
+        <source  src="../HTML5/video/Waves-70796.mp4" type="video/mp4">
+        <object>
+          <embed src="Waves-70796.mp4" type="application/x-shockwave-flash" 
+          allowfullscreen="false" allowscriptaccess="always">  		
+        </object>
+        Formato não suportado  
+      </video>
+</body>
+</html>

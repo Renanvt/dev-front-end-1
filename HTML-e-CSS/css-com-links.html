@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de código HTML e CSS com links</title>
+</head>
+
+<!--
+Ter diferentes medidas para ajustar tamanho de fonte é útil?
+
+Imagine um site mobile ou um site para telas maiores ou projeções. Ao invés de você mudar as fontes para cada elemento, é possível ajustar diretamente o tamanho da fonte padrão para cada tag HTML de texto.
+
+body {font: 100% verdana, arial, sans-serif;}
+
+h1{  font-size: 2.50em;}
+
+h2{  font-size: 1.50em;}
+
+p{  font-size: 0.8em;}
+
+Código 1: Exemplo de código para ajuste de tamanho da fonte
+Fonte: unicesumar.
+
+Mudando o valor de porcentagem da FONT do elemento BODY, proporcio-nalmente, a fonte e todo conteúdo padrão da página são ajustados.
+
+
+-->
+
+<!--
+
+Outra unidade chamada REM também pode ser utilizada para referenciar ta-manho de fonte e funciona de maneira proporcional a medidas em pixels. A figura 11 mostra um exemplo de código utilizando essa unidade de medida.
+
+body {font: 100% verdana, arial,sans-serif;}
+h1 {  font-size: 3.00rem;}
+h2 {  font-size: 2.00rem;}
+p {  font-size: 1.50rem;}
+
+Código 2: Exemplo de código para ajuste de tamanho da fonte
+Fonte: Unicesumar.
+
+Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  ocorre  mais  com  navegadores  antigos,  em  que  é  interessante  o  uso  de  PX  ou porcentagem mesmo como unidade padrão.
+-->
+<style>
+    p{
+        font-family: arial;
+        font-style: 14px;
+    }
+    a:link {
+        color: blue;
+    }
+
+    a:visited{
+        color:red;
+    }
+
+    a:hover{
+        color:black;
+    }
+
+    a:active {
+        color: yellow
+    }
+</style>
+<body>
+    <p><b><a href="https://www.linkedin.com/in/jonatan-renan/" target="_blank">Observe como mudam as cores deste link</a></b></p>
+    
+</body>
+</html>

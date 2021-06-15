@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código HTML 5 com CSS 3 para criação de efeitos</title>
+</head>
+
+<!--
+    HTML5 introduziu um método para permitir que web designers possam as-sumir o controle sobre a janela de exibição, por meio do <meta> tag.
+    
+    Você deve incluir o elemento <meta> dentro da área de cabeçalho <HEAD> para indicar as propriedades de exibição em todas as suas páginas web:
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+        
+    Um <meta> elemento viewport dá as instruções do navegador sobre como controlar dimensões e escalonamento da página.
+    
+    A largura = largura do dispositivo parte define a largura da página a seguir à tela de largura do dispositivo (que irá variar dependendo do dispositivo).
+    
+    A escala inicial = 1,0 parte define o nível de zoom inicial, quando a página é carregada pela primeira vez pelo browser.
+
+    Fonte: unicesumar.
+-->
+<style>
+    div {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        /* Opções para maior compatibilidade com navegadores*/
+        -webkit-animation-name: quadrado;
+        -webkit-animation-duration: 3s;
+        -webkit-animation-iteration-count: infinite;
+        animation-name: quadrado;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    /* Navegadores Chrome, Safari, Opera */
+    @-webkit-keyframes quadrado {
+        0% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+
+        25% {
+            background-color: black;
+            left: 200px;
+            top: 0px;
+        }
+
+        50% {
+            background-color: red;
+            left: 200px;
+            top: 200px;
+        }
+
+        75% {
+            background-color: black;
+            left: 0px;
+            top: 200px;
+        }
+
+        100% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    @keyframes quadrado {
+        0% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+
+        25% {
+            background-color: black;
+            left: 200px;
+            top: 0px;
+        }
+
+        50% {
+            background-color: red;
+            left: 200px;
+            top: 200px;
+        }
+
+        75% {
+            background-color: black;
+            left: 0px;
+            top: 200px;
+        }
+
+        100% {
+            background-color: red;
+            left: 0px;
+            top: 0px;
+        }
+    }
+</style>
+
+<body>
+
+</body>
+
+</html>
