@@ -161,7 +161,7 @@ Aqui é especificado que o vídeo usa os codecs Dirac e Speex. Se o navegador su
 
 [Como inserir um vídeo do YouTube](../HTML5/video/README.md)
 
-![CombatibilidadeVideo](../HTML5/img/CombatibilidadeDeVideo.png)       
+![CombatibilidadeVideo](../HTML5/img/CombatibilidadeVideo.png)      
            
 # Comandos CSS
 
@@ -205,7 +205,7 @@ h2{  font-size: 1.50em;}
 
 p{  font-size: 0.8em;}
 ```
-Fonte:Unicesumar
+> Fonte:Unicesumar
 
 Mudando o valor de porcentagem da FONT do elemento BODY, proporcionalmente, a fonte e todo conteúdo padrão da página são ajustados.
 
@@ -218,6 +218,6 @@ h1 {  font-size: 3.00rem;}
 h2 {  font-size: 2.00rem;}
 p {  font-size: 1.50rem;}
 ```
-Fonte: Unicesumar
+> Fonte: Unicesumar
 
 Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  ocorre  mais  com  navegadores  antigos,  em  que  é  interessante  o  uso  de  PX  ou porcentagem mesmo como unidade padrão.
