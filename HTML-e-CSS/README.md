@@ -127,8 +127,8 @@
 <audio src="audio.mp3" preload="auto" controls></audio>
 ```
 
-![CombatibilidadeAudio](HTML5/img/CombatibilidadedeAudio.png)
-![CombatibilidadeAudio2](HTML5/img/CombatibilidadedeAudio2.png)   
+![CombatibilidadeAudio](HTML5/img/CombatibilidadeAudio.png )
+![CombatibilidadeAudio2](HTML5/img/CombatibilidadeAudio2.png)   
 
 # Video   
 | Atributo | Valores | Significado |        
