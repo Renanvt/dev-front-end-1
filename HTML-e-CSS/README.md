@@ -111,21 +111,21 @@
 | `src` |  	URL do arquivo a ser tocado. |
 | `loop` | Define que o audio começará a ser tocado novamente quando terminar. |
 
-`
+```
 <audio src="/test/audio.ogg">
 <p>Seu nevegador não suporta o elemento audio.</p>
 </audio>
-`
+```
 
-`
+```
 <audio src="audio.ogg" controls autoplay loop>
 <p>Seu navegador não suporta o elemento audio </p>
 </audio>
-`
+```
 
-`
+```
 <audio src="audio.mp3" preload="auto" controls></audio>
-`
+```
 
 ![CombatibilidadeAudio](HTML5/img/CombatibilidadedeAudio.png)
 ![CombatibilidadeAudio2](HTML5/img/CombatibilidadedeAudio2.png)   
