@@ -137,29 +137,31 @@
 | `poster` | |especifica a imagem que será exibida antes do início da reprodução. Mais precisamente, antes da definição do formato que o navegador pode reproduzir |
 | `<object>` | | diz ao navegador o que fazer se nenhum dos formatos não puder ser reproduzido. No nosso caso, o navegador tenta abrir o vídeo no flash player. Em caso de falha, dê uma mensagem de que o formato não é suportado. |
 
-`<video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
+```
+<video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
   Seu navegador não suporta o elemento <code>video</code>.
-</video>` 
+</video>
+```
 
-
-`
+```
 <video controls>
   <source src="foo.ogg" type="video/ogg">
   <source src="foo.mp4" type="video/mp4">
   Seu navegador não suporta o elemento <code>video</code>.
 </video>
-`
+```
 Aqui é especificado que o vídeo usa os codecs Dirac e Speex. Se o navegador suportar Ogg, mas não suportar os codecs especificados, o vídeo não será reproduzido.
-`
+
+```
 <video controls>
   <source src="foo.ogg" type="video/ogg; codecs=dirac, speex">
   Seu navegador não suporta o elemento <code>video</code>.
 </video>
-`
+```
 #
-[Como inserir um vídeo do YouTube
-](HTML5/video/README.md)
- ![CombatibilidadeVideo](HTML5/img/CombatibilidadeDeVideo.png)       
+[Como inserir um vídeo do YouTube](HTML5/video/README.md)
+
+![CombatibilidadeVideo](HTML5/img/CombatibilidadeDeVideo.png)       
            
 # Comandos CSS
 
@@ -167,23 +169,23 @@ Em geral, os comandos CSS são chamados seletores e seguem uma sintaxe como a do
 `SELETOR {PROPRIEDADE:VALOR; PROPRIEDADE:VALOR;}`
 
 Um arquivo contendo os seletores de estilo CSS deve ser gravado em um arquivo de texto com a extensão .CSS e deve ser adicionado a um código HTML por meio da tag `<LINK>`, dentro do cabeçalho `<HEAD>`, como no exemplo:
-`
+```
         <head>
                <link rel=”stylesheet” type=”text/css” href=”estilo.css”>
         </head> 
-`
+```
 
 É possível também utilizar um estilo CSS para configurar apenas uma tag html, tendo validade, apenas, enquanto a tag estiver ativa, como no exemplo a seguir:
 
-`
+```
  <h1>style=”color:blue;margin-left:30px;”>Texto</h1>
- `
+```
  
  HTML5 introduziu um método para permitir que web designers possam as-sumir o controle sobre a janela de exibição, por meio do `<meta>` tag.
     Você deve incluir o elemento `<meta>` dentro da área de cabeçalho `<HEAD>` para indicar as propriedades de exibição em todas as suas páginas web:
-`
+```
  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
- `
+```
  Um `<meta>` elemento viewport dá as instruções do navegador sobre como controlar dimensões e escalonamento da página.
     A largura = largura do dispositivo parte define a largura da página a seguir à tela de largura do dispositivo (que irá variar dependendo do dispositivo).
     A escala inicial = 1,0 parte define o nível de zoom inicial, quando a página é carregada pela primeira vez pelo browser.
@@ -194,7 +196,7 @@ Imagine um site mobile ou um site para telas maiores ou projeções. Ao invés d
 
 Exemplo de código para ajuste de tamanho da fonte
 
-`
+```
 body {font: 100% verdana, arial, sans-serif;}
 
 h1{  font-size: 2.50em;}
@@ -202,7 +204,7 @@ h1{  font-size: 2.50em;}
 h2{  font-size: 1.50em;}
 
 p{  font-size: 0.8em;}
-`
+```
 Fonte:Unicesumar
 
 Mudando o valor de porcentagem da FONT do elemento BODY, proporcionalmente, a fonte e todo conteúdo padrão da página são ajustados.
@@ -210,11 +212,12 @@ Mudando o valor de porcentagem da FONT do elemento BODY, proporcionalmente, a fo
 Outra unidade chamada REM também pode ser utilizada para referenciar ta-manho de fonte e funciona de maneira proporcional a medidas em pixels. A figura 11 mostra um exemplo de código utilizando essa unidade de medida.
 
 Exemplo de código para ajuste de tamanho da fonte
-`
+```
 body {font: 100% verdana, arial,sans-serif;}
 h1 {  font-size: 3.00rem;}
 h2 {  font-size: 2.00rem;}
 p {  font-size: 1.50rem;}
-`
+```
 Fonte: Unicesumar
+
 Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  ocorre  mais  com  navegadores  antigos,  em  que  é  interessante  o  uso  de  PX  ou porcentagem mesmo como unidade padrão.
