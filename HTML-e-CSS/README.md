@@ -134,8 +134,8 @@
 | Atributo | Valores | Significado |        
 | ------ | ------ | ------ |
 | `preload` | `"none"`,  `"auto"` e `"metadata"` | não carrega o arquivo, carrega o arquivo e carrega apenas os meta dados do arquivo respectivamente | 
-| `poster` | especifica a imagem que será exibida antes do início da reprodução. Mais precisamente, antes da definição do formato que o navegador pode reproduzir |
-| `<object>` | diz ao navegador o que fazer se nenhum dos formatos não puder ser reproduzido. No nosso caso, o navegador tenta abrir o vídeo no flash player. Em caso de falha, dê uma mensagem de que o formato não é suportado. |
+| `poster` | |especifica a imagem que será exibida antes do início da reprodução. Mais precisamente, antes da definição do formato que o navegador pode reproduzir |
+| `<object>` | | diz ao navegador o que fazer se nenhum dos formatos não puder ser reproduzido. No nosso caso, o navegador tenta abrir o vídeo no flash player. Em caso de falha, dê uma mensagem de que o formato não é suportado. |
 
 `<video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
   Seu navegador não suporta o elemento <code>video</code>.
