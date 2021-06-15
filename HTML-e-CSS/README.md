@@ -158,10 +158,10 @@ Aqui é especificado que o vídeo usa os codecs Dirac e Speex. Se o navegador su
   Seu navegador não suporta o elemento <code>video</code>.
 </video>
 ```
-#
-[Como inserir um vídeo do YouTube](HTML5/video/README.md)
 
-![CombatibilidadeVideo](HTML5/img/CombatibilidadeDeVideo.png)       
+[Como inserir um vídeo do YouTube](../HTML5/video/README.md)
+
+![CombatibilidadeVideo](../HTML5/img/CombatibilidadeDeVideo.png)       
            
 # Comandos CSS
 
