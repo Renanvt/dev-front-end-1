@@ -10,19 +10,7 @@
 
 <body>
     
-    <!--O parâmetro ACTION=”PAGINA.PHP” indica que, quando submetido, o formulário enviará dados ao local indicado entre aspas, sendo, normalmente, um servidor PHP para tratamento dos dados ou um e-mail.-->
-
-    <!--METHOD=”POST” é outro parâmetro de <FORM> para definir o envio mais seguro dos dados sem exibição deles no endereço indicado na barra de endereços do navegador, ao passo que “GET” exibe esses dados na barra e não se preocupa com o ocultamento de dados.-->
-
-    <!--O parâmetro TARGET=”_BLANK”, também usado com a tag <A>, exibirá a próxima etapa do formulário quando submetido a uma nova aba ou janela do navegador, preservando a página contendo o formulário na janela ou aba atual.   -->
-
-    <!--ACCEPT-CHARSET=”UTF-8859” apenas define o conjunto de caracteres ASCII aceitos no preenchimento do formulári-->
-
-    <!--. ENCTYPE=”APPLICATION/X-WWW-FORM-URLENCODED” define o método de encriptação de dados utilizado no envio de dados.-->
-
-    <!--AUTOCOMPLETE=”OFF” desabilita o autopreenchimento do formulário, sendo “ON” valor padrão para esse parâmetro. -->
-
-    <!--Finalmente, NOVALIDATE indica que não haverá validação de campos, permitindo liberdade no preenchimento dos dados.-->
+    
 
     <form action="pagina.php" method="post" target="_blank" accept-charset="UTF-8859"
         enctype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
@@ -65,15 +53,7 @@
         Cor favorita <input type="color" name="cor"><br />
         </br>
 
-        <!--Outra tag importante na estruturação de um formulário é <FIELDSET>, que delimita um conjunto de campos, agrupando para posterior envio em conjunto por meio da tag <BUTTON>. -->
-
-        <!--Já a tag <LEGEND> fará a inserção de um texto título para o conjunto de campos, permitindo melhor compreensão do agrupamento. -->
-
-        <!-- TYPE=”SUBMIT” da tag <BUTTON> é responsável por enviar os dados dos campos agrupados ou não para o destino indicado na tag <FORM> pelo parâmetro ACTION.-->
-
-        <!--ONCLICK é um parâmetro para indicar uma ação para um clique do mouse, podendo exibir informações em caixas de mensagem.-->
-
-        <!--A tag <LABEL> é a tag essencial para criação dos campos do formulário e utiliza parâmetros como INPUT TYPE=”SEARCH”, que define o tipo do campo que será criado, e NAME=”CAMPO”, que indica um nome que é extremamente importante para o posterior tratamento dos dados por um código PHP, por exemplo.-->
+       
         <fieldset>
             <legend>Informação</legend>
             <p><label>E-mail <input type="email" name="email" placeholder="usuário@domínio.com">
