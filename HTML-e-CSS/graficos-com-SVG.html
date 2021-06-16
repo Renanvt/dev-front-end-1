@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Em algumas tags, os atributos necessários para a criação de elementos gráficos são simples, mas, na tag <POLIGON>, por exemplo, são necessários vários parâmetros que indicam coordenadas dentro do espaço criado pela tag <SVG>.-->
+
+    <!--
+        Essas coordenadas devem ser adequadas ao tamanho da caixa definida em pixels pela
+        tag <SVG>, sempre imaginando seu posicionamento dentro dessa área delimitada
+    -->
+
+    <!--
+        Outra tag complexa é <LINEAR GRADIENT> que utiliza parâmetros para indicar os pontos da figura onde ocorrem as passagens de cor, as cores de cada parte e de que forma
+        o efeito ocorre na passagem entre as cores.
+    -->
+    <h1>Exemplos SVG = Scalable Vector Graphics</h1>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"
+    </svg>
+
+    <br/>
+    
+    <svg width="100" height="100">
+        <rect x="10" y="10" rx="20" ry="20" width="80" height="80"
+        style="fill:red; stroke:black; stroke-width:5; opacity:0.5"/>
+    </svg>
+    <br/>
+    <svg width="100" height="100">
+        <polygon points="0,50 50,0 100,50 50,100" style="fill:lime"/>
+    </svg>
+    <br/>
+
+    <svg height="100" width="100">
+        <defs>
+            <linearGradient id="grad1" 
+            x1="0%"
+            y1="0%"
+            x2="100%"
+            y2="0%">
+        <stop offset="100%" style="stop-color: rgb(255, 255, 0 ); stop-opacity:1"/>
+        <stop offset="100%” style="stop-color: rgb(255,0,0); stop-opacity:1 "/>
+            </linearGradient>    
+        </defs>
+        
+        <ellipse cx="50" cy="50" rx="50" ry="30" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="22" font-family="Arial" x="20" y="60">HTML</text>
+    </svg>
+</body>
+</html>
