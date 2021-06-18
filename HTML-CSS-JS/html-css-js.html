@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html, Css e JavaScript - Troca de texto</title>
+</head>
+<style>
+    p {
+        font-family: Times New Roman;
+        font-size: 16px;
+        color: red;
+        text-align: center;
+    }
+</style>
+
+<script>
+    function funcao() {
+        document.getElementById("texto").innerHTML = "Conteúdo depois do clique!";
+    }
+</script>
+
+<body>
+    <p id="texto">Conteúdo antes do clique!</p>
+    <p><button type="button" onclick="funcao()">Clique! </button></p>
+</body>
+
+</html>
