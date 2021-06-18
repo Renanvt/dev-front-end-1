@@ -5,6 +5,10 @@
 # Exemplo de jquery
 ![js2](../HTML5/img/js2.png)
 
+# Exemplo de html, css e js
+![js2](../HTML5/img/js3.png)
+![js2](../HTML5/img/js4.png)
+
 # Principais palavras-chave da linguagem Javascript
 
 | PALAVRA-CHAVE | DESCRIÇÃO |
