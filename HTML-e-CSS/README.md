@@ -1,4 +1,4 @@
-[Comandos html][#Lista-de-tags-adicionais]
+[Comandos html][Lista-de-tags-adicionais.md]
 
 # Lista de tags adicionais
 
