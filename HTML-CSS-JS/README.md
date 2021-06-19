@@ -8,7 +8,7 @@
 ![js3](../HTML5/img/js3.png)
 ![js4](../HTML5/img/js4.png)
 
-## Exemplo de html, css e js
+## Troca de imagem ao clickar
 ![js5](../HTML5/img/js5.png)
 ![js6](../HTML5/img/js6.png)
 
