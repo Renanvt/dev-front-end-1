@@ -175,7 +175,7 @@ Aqui é especificado que o vídeo usa os codecs Dirac e Speex. Se o navegador su
 | `background-attachment` |  Ajusta as propriedades da rolagem da imagem de fundo. |
 | `background-position` |Ajusta as propriedades da posição da imagem de fundo. |
 | `border` | Ajusta todas as propriedades de borda de uma vez |
-| `border-bottom` | Ajusta as propriedades de borda de baixo de uma vez
+| `border-bottom` | Ajusta as propriedades de borda de baixo de uma vez | |
 -**color** – ajusta a cor da borda
 -**style** – ajusta o tipo da linha de borda
 -**width** – ajusta a largura da linha de borda|
