@@ -6,6 +6,7 @@
 
 ![jq1](../HTML5/img/jq1.png)
 ![jq2](../HTML5/img/jq2.png)
+
 ![jq3](../HTML5/img/jq3.png)
 ![jq4](../HTML5/img/jq4.png)
 
@@ -16,6 +17,10 @@
 ## Troca de imagem ao clickar
 ![js5](../HTML5/img/js5.png)
 ![js6](../HTML5/img/js6.png)
+
+## Localização geográfica
+![localizacao](../HTML5/img/localizacao.png)
+
 
 # Principais palavras-chave da linguagem Javascript
 
