@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#rect1").fadeOut("show");
+                $("#rect2").fadeOut(3000, 0.5);
+            });
+        });
+    </script>
+</head>
+<body>
+    <button>Clique</button>
+    <div id="rect1" style="background-color:black; width:100px; height:100px"> </div>
+    <div id="rect2" style="background-color:black; width:100px; height:100px"> </div>
+</body>
+</html>
