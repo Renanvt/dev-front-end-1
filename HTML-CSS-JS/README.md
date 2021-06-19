@@ -9,6 +9,8 @@
 
 ![jq3](../HTML5/img/jq3.png)
 ![jq4](../HTML5/img/jq4.png)
+![jq5](../HTML5/img/jq5.png)
+![jq6](../HTML5/img/jq6.png)
 
 ## Exemplo de html, css e js
 ![js3](../HTML5/img/js3.png)
