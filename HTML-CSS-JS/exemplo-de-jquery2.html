@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de código Jquery com HTML</title>
+</head>
+<style>
+    p {
+        font-size: 20px;
+        color: red;
+    }
+</style>
+
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#ve").click(function () {
+            $("p").show();
+        });
+        $("#naoVe").click(function () {
+            $("p").hide();
+        });
+    });
+</script>
+
+<body>
+    <p>MENSAGEM EXEMPLO</p>
+    <button id="ve">VER</button>
+    <button id="naoVe">NÃO VER</button>
+</body>
+
+</html>

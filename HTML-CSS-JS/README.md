@@ -3,6 +3,10 @@
 
 ## Exemplo de jquery
 ![js2](../HTML5/img/js2.png)
+![jq1](../HTML5/img/jq1.png)
+![jq2](../HTML5/img/jq2.png)
+![jq3](../HTML5/img/jq3.png)
+![jq4](../HTML5/img/jq4.png)
 
 ## Exemplo de html, css e js
 ![js3](../HTML5/img/js3.png)
