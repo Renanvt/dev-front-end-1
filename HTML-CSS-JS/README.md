@@ -47,3 +47,19 @@
 | `<` | Menor que |
 | `>=` |Maior ou igual a |
 | `<=` | Menor ou igual a |
+
+## Instalação Jquery
+```
+yarn add jquery
+```
+
+```
+npm install jquery
+```
+
+```
+bower install jquery
+```
+```
+bower install https://code.jquery.com/jquery-3.6.0.min.js
+```
