@@ -1,6 +1,6 @@
 * ### [Comandos html](#Lista-de-tags-adicionais)
-* ### [Inserção de áudio](#Audio)
-* ### [Inserção de video](#Video)
+** ### [Inserção de áudio](#Audio)
+** ### [Inserção de video](#Video)
 * ### [Comandos CSS](#Comandos-css)
 
 # Lista de tags adicionais
