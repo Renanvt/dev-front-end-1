@@ -1,4 +1,7 @@
-[Comandos html](#Lista-de-campos-type)
+*[Comandos html](#Lista-de-tags-adicionais)
+*[Inserção de áudio](#Audio)
+*[Inserção de video](#Video)
+*[Comandos CSS](#Comandos-css)
 
 # Lista de tags adicionais
 
