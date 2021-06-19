@@ -1,13 +1,16 @@
-# Exemplo de JS
-
+## Exemplo de JS
 ![js1](../HTML5/img/js1.png)
 
-# Exemplo de jquery
+## Exemplo de jquery
 ![js2](../HTML5/img/js2.png)
 
-# Exemplo de html, css e js
-![js2](../HTML5/img/js3.png)
-![js2](../HTML5/img/js4.png)
+## Exemplo de html, css e js
+![js3](../HTML5/img/js3.png)
+![js4](../HTML5/img/js4.png)
+
+## Exemplo de html, css e js
+![js5](../HTML5/img/js5.png)
+![js6](../HTML5/img/js6.png)
 
 # Principais palavras-chave da linguagem Javascript
 
