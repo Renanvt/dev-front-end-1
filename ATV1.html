@@ -9,64 +9,79 @@
 
 
     <style>
+        body{
+            background-color: blue;
+            font-family: 'Times New Roman';
+            font-size: 30px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+        }
+
         h1,
-        p,
-        button,
-        textarea {
+        p {
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-direction: row;
+            
         }
 
         button {
-            margin-bottom: 10px;
-            margin-right: 10px;
-            align-items: right;
-
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            font-size: 20px;
+            text-shadow: 30cm;
+            
         }
+
 
         textarea {
             width: 500px;
             height: 100px;
             margin-top: 10px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 
 <body>
-    <h1>Ofuscador de textos</h1>
-    <p>Texto original: </p>
-
-    <script type="text/javascript">
-
-        // console.log(texto);
-
-        var element;
-
-        function ofuscar() {
-            element = document.getElementById('texto');
-            var element2 = document.getElementById('texto2');
-            //const text = element.outerHTML;
-            //const texto = text.replace('Oi,', 'Olá!');
-
-            element2.innerText = `${element.value.replace(/a/g, 'ais').replace(/e/g, 'enter').replace(/i/g, 'inis').replace(/o/g, 'omber').replace(/u/g, 'ufter')}`;
-
-        }
-
-        function desofuscar(){
-            document.getElementById('texto2').innerText = `${element.value}`
-        }
-    </script>
     <main>
-        <textarea id="texto">Oi, eu sou apenas um pequeno texto de exemplo!</textarea></br>
+        <h1>Ofuscador de textos</h1>
+        <p>Texto original: </p>
+
+        <script type="text/javascript">
+
+            // console.log(texto);
+
+            var element;
+
+            function ofuscar() {
+                element = document.getElementById('texto');
+                var element2 = document.getElementById('texto2');
+                //const text = element.outerHTML;
+                //const texto = text.replace('Oi,', 'Olá!');
+
+                element2.innerText = `${element.value.replace(/a/g, 'ais').replace(/e/g, 'enter').replace(/i/g, 'inis').replace(/o/g, 'omber').replace(/u/g, 'ufter')}`;
+
+            }
+
+            function desofuscar() {
+                document.getElementById('texto2').innerText = `${element.value}`
+            }
+        </script>
+
+        <textarea id="texto">Oi, eu sou apenas um pequeno texto de exemplo!</textarea>
+        </br>
         <button type='submit' onclick='ofuscar()'>Ofuscar</button>
         <button type='submit' onclick='desofuscar()'>Desofuscar</button>
+        </br>
+        <textarea id="texto2"></textarea>
     </main>
-
-
-    </br>
-    <textarea id="texto2"></textarea>
 
 </body>
 
