@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    
+    <p><a href="https://gustavoguanabara.github.io/" target="_blank" rel="external" >Você pode acessar o meu repositório público no GitHub</a></p>
+    <!--REL - Indica que é um link externo-->
+    <p>Você também pode acessar o<a href="https://youtube.com/cursoemvideo/"> meu canal gratuito no Youtube</a></p>
+    
+    <!--Abre nova página em nova aba ou janela-->
+    <a href = "http://www.google.com" target="_blank">GOOGLE</a>
+
+    <!--Abre nova página na mesma aba ou janela-->
+    <a href ="http://www.cesumar.br" target="_self">CESUMAR</a>
+
+    <!--Abre nova página em nova aba ou janela cheia em caso de antes a página estar divida em frames-->
+    <a href ="http://www.google.com" target="_top">GOOGLE</a>
+
+    <!--Abre página no frame que contém a tag FRAMESET-->
+    <a href ="http://www.instagram.com" target=_parent>INSTAGRAM</a>
+
+    <!--Abre nova página no frame indicado dentro da página-->
+    <a href ="http://www.instagram.com" target=nome_da_janela>INSTAGRAM</a>
+    
+    <h1>Usando links internos</h1>
+    <!--Faz relação com outra página que está dentro do servidor, e diz respeito a nossa própria página-->
+    <p>Esta é a primeira página do site. Se você quizer, pode acessar também a minha <a href="html5.html" rel="next" target="_self">segunda página</a></p>
+    <!--Quando faço um link interno, não preciso indicar a url inteira-->
+    
+    <p>Esta página é um oferecimento de <a href="http://www.hostnet.com.br" target="_blank" rel="nofollow">Hostnet</a></p> 
+    <!--Faz isso quando não se sabe se é um site oficial, ou seja não tem o selo aval. Não quero que um mecanismo de buscar perpetue essa busca-->
+    <p>Você também pode acessar a nossa <a href="img/Argentina.jpg" rel="next">página de notícias</a></p>
+</body>
+</html>

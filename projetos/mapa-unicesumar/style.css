@@ -1,0 +1,155 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h2{
+   text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    font-size: 50px;
+    margin-top: 2%;
+    padding-top: 3px;
+}
+.caixa{
+    font-weight: bolder;
+    color: black;
+}
+.password2{
+    font-weight: bolder;
+    color: red;
+    font-size: 200px;
+}
+
+.password{
+    font-weight: bolder;
+    color: black;
+    font-size: 25px;
+}
+.password:hover{
+    cursor: text;
+}
+
+.caixa2{
+    font-weight: bolder;
+    color: white;
+    font-size: 50px;
+  
+}
+.client{
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+.btnComum{
+    font-size: 25px;
+}
+.btnComum:hover{
+    cursor: pointer;
+}
+.btnRapido{
+    font-size: 25px;
+}
+.btnRapido:hover{
+    cursor: pointer;
+}
+.btnPriori{
+    font-size: 25px;
+}
+.btnPriori:hover{
+    cursor: pointer;
+}
+.btnCaixa1{
+    font-size: 25px;
+}
+.btnCaixa1:hover{
+    cursor: pointer;
+}
+.btnCaixa2{
+    font-size: 25px;
+}
+.btnCaixa2:hover{
+    cursor: pointer;
+}
+.btnCaixa3{
+    font-size: 25px;
+}
+.btnCaixa3:hover{
+    cursor: pointer;
+}
+.btnCaixa4{
+    font-size: 25px;
+}
+.btnCaixa4:hover{
+    cursor: pointer;
+}
+
+#title{
+    background-color: brown;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 9px;
+}
+
+#main{
+    background-color: black;
+    padding-bottom: 1%;
+    width: 100vw;
+    margin-right: 15%;
+    margin-bottom: 2px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    
+}
+
+#left{
+    background-color: darkgrey;
+    padding-bottom: 1%;
+    width: 49%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 15px;
+}
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+#right{
+    background-color: darkgrey;
+    padding-bottom: 1%;
+    width: 50%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+}
+
+#rodape{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+h3{
+    text-align: center;
+    
+}

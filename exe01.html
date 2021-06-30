@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            font-weight: bold;
+            color: green;
+            
+        }
+    </style>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+   
+</head>
+<body>
+   <p><span class="importante" id="um">1</span></p>
+   <p><span class="dois" id="dois">2</span></p>
+   <p><span class="importante" id="tres">3</span></p>
+    <h1>Texto</h1>
+</body>
+<script>
+    $('.importante').hide().fadeIn();
+    $('span').hide();
+    $('#tres').hide().fadeIn();
+    $("h1").hide().fadeIn(3000);
+</script>
+</html>
