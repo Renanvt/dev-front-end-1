@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+
+<body>
+
+    <p>Reproduzindo aúdio</p>
+    <p>Maneira simples</p>
+    <audio src="../HTML5/audio/575761__acclivity__gardenwarbler.mp3" alt="audio-floresta" controls autoplay>
+    </audio>
+    <!--autostart - define se o som começará imediatamente, assim que a página abrir. Você pode ter um valor de verdadeiro ou falso aqui-->
+
+    <!-- volume - pode ter qualquer valor de 1 a 100.-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="../HTML5/audio/575761__acclivity__gardenwarbler.mp3" type="audio/mpeg">
+        <source src="../HTML5/audio/575761__acclivity__gardenwarbler.mp3" type="audio/ogg">
+        <source src="../HTML5/audio/575761__acclivity__gardenwarbler.mp3" type="audio/wav">
+        <p>Seu navegador não suporta o elemento audio</p>
+    </audio>
+
+    <embed height="60" type="audio/mp3" widht="144" src="../HTML5/audio/575761__acclivity__gardenwarbler.mp3"
+        volume="60" loop="false" autostart="false" />
+
+</body>
+
+</html>
