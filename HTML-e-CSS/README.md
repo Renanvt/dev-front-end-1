@@ -179,20 +179,30 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 ## Emoção das cores
 ![cores](img/cores.png)
 
+> Fonte: Gustavo Guanabara, *O poder das cores*. Disponibilizado em: https://gustavoguanabara.github.io/
+
 ## Círculo cromático
 ![círculo-cromático](img/Círculo-Cromático.png)
+
+> Fonte: Gustavo Guanabara, *O poder das cores*. Disponibilizado em: https://gustavoguanabara.github.io/
 
 ## Esquemas harmônicos
 ![Esquemas-harmônicos](img/Esquemas-Harmônicos.png)
 
+> Fonte: Gustavo Guanabara, *O poder das cores*. Disponibilizado em: https://gustavoguanabara.github.io/
+
 ## Temperatura e harmonia
 ![Temperaturas-e-harmonia](img/temperatura-e-harmonia.png)
+
+> Fonte: Gustavo Guanabara, *O poder das cores*. Disponibilizado em: https://gustavoguanabara.github.io/
 
 ## Combinação de cores
 ![cores-combinação](img/cores-combinação.png)
 
+> Fonte: Gustavo Guanabara, *O poder das cores*. Disponibilizado em: https://gustavoguanabara.github.io/
+
 ## Cores RGB e Hex
 ![cores2](img/cores2.png)
 
-
+> Fonte: Gustavo Guanabara, *O poder das cores*. Disponibilizado em: https://gustavoguanabara.github.io/
 
