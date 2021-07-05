@@ -172,7 +172,9 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 # Cores
 
 ![cores](img/cores.png)
+
 ![cores-combinação](img/cores-combinação.png)
+
 ![cores2](img/cores2.png)
 
 ![círculo-cromático](img/Círculo-Cromático.png)
