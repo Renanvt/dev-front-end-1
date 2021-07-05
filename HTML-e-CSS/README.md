@@ -115,7 +115,7 @@
 Em geral, os comandos CSS são chamados seletores e seguem uma sintaxe como a do exemplo a seguir:
 `SELETOR {PROPRIEDADE:VALOR; PROPRIEDADE:VALOR;}`
 
-# <a name="Inserir-CSS-no-documento"></a>Inserir CSS no documento
+# <a name="Inserir-CSS-no-documento">Inserir-CSS-no-documento</a>
 
 Um arquivo contendo os seletores de estilo CSS deve ser gravado em um arquivo de texto com a extensão .CSS e deve ser adicionado a um código HTML por meio da tag `<LINK>`, dentro do cabeçalho `<HEAD>`, como no exemplo:
 ```
