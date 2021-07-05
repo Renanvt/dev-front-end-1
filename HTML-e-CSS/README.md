@@ -172,6 +172,7 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 # Cores
 
 ![cores](img/cores.png)
+![Temperaturas-e-harmonia](img/temperatura-e-harmonia.png = 253x253)
 
 ![cores-combinação](img/cores-combinação.png)
 
@@ -179,4 +180,4 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 
 ![círculo-cromático](img/Círculo-Cromático.png)
 ![Esquemas-harmônicos](img/Esquemas-Harmônicos.png)
-![Temperaturas-e-harmonia](img/temperatura-e-harmonia.png)
+
