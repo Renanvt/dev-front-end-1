@@ -42,10 +42,17 @@ Se o clipe que você precisa estiver no YouTube, você pode simplesmente copiar 
 Se você tem um site no wordpress, basta inserir o URL no lugar certo e o mecanismo irá incorporá-lo automaticamente na página. Esta é a maneira mais fácil.
 
 Com o advento de novas tags, a inserção de arquivos de mídia na página web tornou-se muito mais simples. Sem dúvida, qualquer desenvolvedor web precisa saber como isso é feito. Além disso, usando a tag video ou classes de estilo, você pode adicionar um quadro ou alguns outros elementos decorativos ao seu conteúdo visual.-->
-    <video controls>
+
+<!--Safari não é compatível com ogv-->
+<!-- Quando mais vídeos tiver convertidos dentro de source, maior é a compatibilidade com vários navegadores e usuários-->
+<h1>Inserindo vídeos hospedados localmente</h1>
+<!--Vídeos hospedados localmente consomem muito tráfego de dados-->
+    <video src="video/Waves-70796.mp4" width="500"></video>
+    <video width="500" poster="img/Cataratas.jpg" controls>
         <source src="../HTML5/video/Waves-70796.mp4" type="video/mp4">
-        <source  src="../HTML5/video/Waves-70796.mp4" type="video/m4v">
+        <source  src="../HTML5/video/Waves-70796.mp4" type="video/mp4">
         <source  src="../HTML5/video/Waves-70796.mp4" type="video/webm">
+        <source  src="../HTML5/video/Waves-70796.mp4" type="video/ogv">
         <object>
           <embed src="Waves-70796.mp4" type="application/x-shockwave-flash" 
           allowfullscreen="false" allowscriptaccess="always">  		
