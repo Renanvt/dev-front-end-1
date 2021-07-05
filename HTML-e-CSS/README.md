@@ -171,13 +171,23 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 
 # Cores
 
+## Emoção das cores
 ![cores](img/cores.png)
-![Temperaturas-e-harmonia](img/temperatura-e-harmonia.png=253x)
 
+## Círculo cromático
+![círculo-cromático](img/Círculo-Cromático.png)
+
+## Esquemas harmônicos
+![Esquemas-harmônicos](img/Esquemas-Harmônicos.png)
+
+## Temperatura e harmonia
+![Temperaturas-e-harmonia](img/temperatura-e-harmonia.png)
+
+## Combinação de cores
 ![cores-combinação](img/cores-combinação.png)
 
+## Cores RGB e Hex
 ![cores2](img/cores2.png)
 
-![círculo-cromático](img/Círculo-Cromático.png)
-![Esquemas-harmônicos](img/Esquemas-Harmônicos.png)
+
 
