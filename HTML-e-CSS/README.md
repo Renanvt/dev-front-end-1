@@ -168,3 +168,13 @@ p {  font-size: 1.50rem;}
 > Fonte: Unicesumar
 
 Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  ocorre  mais  com  navegadores  antigos,  em  que  é  interessante  o  uso  de  PX  ou porcentagem mesmo como unidade padrão.
+
+# Cores
+
+![cores](img/cores.png)
+![cores-combinação](img/cores-combinação.png)
+![cores2](img/cores2.png)
+
+![círculo-cromático](img/Círculo-Cromático.png)
+![Esquemas-harmônicos](img/Esquemas-Harmônicos.png)
+![Temperaturas-e-harmonia](img/temperatura-e-harmonia.png)
