@@ -172,7 +172,7 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 # Cores
 
 ![cores](img/cores.png)
-![Temperaturas-e-harmonia](img/temperatura-e-harmonia.png =253x)
+![Temperaturas-e-harmonia](img/temperatura-e-harmonia.png=253x)
 
 ![cores-combinação](img/cores-combinação.png)
 
