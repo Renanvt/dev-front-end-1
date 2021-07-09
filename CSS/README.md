@@ -211,23 +211,30 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 
 ### Glifo
 ![Glifo](img/fontes/glifo.png)
+> Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
 
 ### Fonte
 ![Fonte](img/fontes/fonte.png)
+> Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
 
 ### Categoria de fontes
 ![Categoria de fontes](img/fontes/categoria-de-fontes.png)
+> Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
 
 ### Família tipográfica
 ![FamiliaTipográfica](img/fontes/familia-tipográfica.png)
+> Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
 
 ## Anatomia do tipo
 
 ### Anatômicos geométricos
 ![AnatomicosGeometricos](img/fontes/anatomicos-geométricos.png)
+> Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
 
 ### Itens métricos
 ![ItensMétricos](img/fontes/itens-métricos.png)
+> Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
 
 ### Corpo da fonte
 ![CorpoDaFonte](img/fontes/corpo-fontes.png)
+> Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
