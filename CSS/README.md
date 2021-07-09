@@ -8,6 +8,7 @@
 
  [Cores](#Cores)
 
+ [Fontes](#Fontes)
    
            
 # Comandos CSS
@@ -206,3 +207,27 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 
 > Fonte: Gustavo Guanabara, *O poder das cores*. Disponibilizado em: https://gustavoguanabara.github.io/
 
+# Fontes
+
+### Glifo
+![Glifo](img/fontes/glifo.png)
+
+### Fonte
+![Fonte](img/fontes/fonte.png)
+
+### Categoria de fontes
+![Categoria de fontes](img/fontes/categoria-de-fontes.png)
+
+### Família tipográfica
+![FamiliaTipográfica](img/fontes/familia-tipográfica.png)
+
+## Anatomia do tipo
+
+### Anatômicos geométricos
+![AnatomicosGeometricos](img/fontes/anatomicos-geométricos.png)
+
+### Itens métricos
+![ItensMétricos](img/fontes/itens-métricos.png)
+
+### Corpo da fonte
+![CorpoDaFonte](img/fontes/corpo-fontes.png)
