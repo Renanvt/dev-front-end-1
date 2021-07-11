@@ -242,25 +242,25 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 ## Tamanho da fonte e suas medidas
 
 ### Medidas Absolutas
-*cm, mm, in, px, pt, pc*
+### **cm, mm, in, px, pt, pc**
 
-*cm* - centimetros
-*mm* - milímetro
-*in* - polegada
-*px* - pixel
-*pt* - ponto - medidas da tipografia(papel)
-*pc* - pica - medidas da tipografia(papel) - não é recomendado em telas
+**cm** - centimetros <br/>
+**mm** - milímetro <br/>
+**in** - polegada <br/>
+**px** - pixel <br/>
+**pt** - ponto - medidas da tipografia(papel) <br/>
+**pc** - pica - medidas da tipografia(papel) - não é recomendado em telas <br/>
 
 ### Medidas Relativas
-*em* - relativa a altura-M de uma fonte
-*ex* - relativa a altura-X de uma fonte
-*rem* - igual ao em, porém relativo ao root. ou seja a fonte configurada no body (neste caso)
-*vw* - largura da viewport em porcentagem
-*vh* - altura da viewport em porcentagem
+**em** - relativa a altura-M de uma fonte <br/>
+**ex** - relativa a altura-X de uma fonte <br/>
+**rem** - igual ao em, porém relativo ao root. ou seja a fonte configurada no body (neste caso) <br/>
+**vw** - largura da viewport em porcentagem <br/>
+**vh** - altura da viewport em porcentagem <br/>
 
-*16px* geralmente = 1em
+**16px** geralmente = 1em
 
-*viewport* - tamanho da tela
+**viewport** - tamanho da tela
 A recomendação da w3c é utilizar px e em
              em tamanho de fonte
 
