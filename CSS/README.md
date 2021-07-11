@@ -238,3 +238,11 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 ### Corpo da fonte
 ![CorpoDaFonte](img/fontes/corpo-fontes.png)
 > Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
+
+## Extensões e sites
+
+[FontsNinja](https://www.fonts.ninja/)
+[Whatfontis](https://www.whatfontis.com/)
+[Fontsquirrel](https://www.fontsquirrel.com/)
+[Myfonts](https://www.myfonts.com/)
+

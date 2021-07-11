@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love';
+            src: url('img/fontes/love\ larry\ ttf.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+             geralmente ttf e otf funciona em todos os navegadores
+            */
+        }
+
+        @font-face {
+            font-family: 'Chigoda';
+            src: url('img/fontes/Chigoda.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            
+            */
+        }
+
+        body {
+            font-family: 'Times New Roman', 'Chigoda', serif;
+        }
+
+        h1 {
+            font-family: 'Love', 'Chigoda', serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, in explicabo! Dolorem eum voluptate nulla
+        similique quidem accusamus perferendis explicabo aut, laudantium adipisci est nobis corrupti, alias at tempora
+        mollitia.</p>
+</body>
+
+</html>
