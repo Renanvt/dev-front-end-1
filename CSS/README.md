@@ -242,32 +242,71 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 ## Tamanho da fonte e suas medidas
 
 ### Medidas Absolutas
-### **cm, mm, in, px, pt, pc**
+## ```**cm, mm, in, px, pt, pc**```
 
-**cm** - centimetros <br/>
-**mm** - milímetro <br/>
-**in** - polegada <br/>
-**px** - pixel <br/>
-**pt** - ponto - medidas da tipografia(papel) <br/>
-**pc** - pica - medidas da tipografia(papel) - não é recomendado em telas <br/>
+```**cm**``` - centimetros <br/>
+```**mm**``` - milímetro <br/>
+```**in**``` - polegada <br/>
+```**px**``` - pixel <br/>
+```**pt**``` - ponto - medidas da tipografia(papel) <br/>
+```**pc**``` - pica - medidas da tipografia(papel) - não é recomendado em telas <br/>
 
 ### Medidas Relativas
-**em** - relativa a altura-M de uma fonte <br/>
-**ex** - relativa a altura-X de uma fonte <br/>
-**rem** - igual ao em, porém relativo ao root. ou seja a fonte configurada no body (neste caso) <br/>
-**vw** - largura da viewport em porcentagem <br/>
-**vh** - altura da viewport em porcentagem <br/>
+```**em**``` - relativa a altura-M de uma fonte <br/>
+```**ex**``` - relativa a altura-X de uma fonte <br/>
+```**rem**``` - igual ao em, porém relativo ao root. ou seja a fonte configurada no body (neste caso) <br/>
+```**vw**``` - largura da viewport em porcentagem <br/>
+```**vh**``` - altura da viewport em porcentagem <br/>
 
 **16px** geralmente = 1em
 
 **viewport** - tamanho da tela
-A recomendação da w3c é utilizar px e em
-             em tamanho de fonte
+
+A recomendação da w3c é utilizar ```**px**``` e ```**em**``` em tamanho de fonte
+
+## PESO, ESTILO E SHORTHAND
+```font-family: Arial, Helvetica, sans-serif;```
+
+**Safe combination** -> Usa a primeira fonte, se não achar arial, tenta a helvetica, se não achar a helvetica, tenta a sans-serif
+
+```font-family: sans-serif; ```
+
+O próprio s.o escolhe qual fonte sans-serif vai colocar
+
+## Peso da fonte
+
+### Pesos literais
+```lighter normal bold bolder```
+           
+### Pesos numéricos
+```100 - 900```
+
+
+## Shorthand font 
+
+Consigo dizer várias coisas em uma mesma linha, nessa ordem:
+            
+```font-style -> font-weight -> font-size -> font-family```
+
+```font: italic bolder 3em 'Lucida Sans', sans-serif;```
+``` font: bold 2em 'Lucida Sans'; ```
+
+## Fontes da internet
+
+``` @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap'); ```
+## Fontes externas
+
+``` @font-face {
+font-family: 'Love';
+src: url('img/fontes/love\ larry\ ttf. ttf') 
+format('truetype')
+``` 
+
 
 ## Extensões e sites
 
-[FontsNinja](https://www.fonts.ninja/)
-[Whatfontis](https://www.whatfontis.com/)
-[Fontsquirrel](https://www.fontsquirrel.com/)
-[Myfonts](https://www.myfonts.com/)
+[FontsNinja](https://www.fonts.ninja/)<br/>
+[Whatfontis](https://www.whatfontis.com/)<br/>
+[Fontsquirrel](https://www.fontsquirrel.com/)<br/>
+[Myfonts](https://www.myfonts.com/)<br/>
 
