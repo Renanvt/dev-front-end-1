@@ -239,6 +239,31 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 ![CorpoDaFonte](img/fontes/corpo-fontes.png)
 > Fonte: Gustavo Guanabara, *Fontes*. Disponibilizado em: https://gustavoguanabara.github.io/
 
+## Tamanho da fonte e suas medidas
+
+### Medidas Absolutas
+*cm, mm, in, px, pt, pc*
+
+*cm* - centimetros
+*mm* - milímetro
+*in* - polegada
+*px* - pixel
+*pt* - ponto - medidas da tipografia(papel)
+*pc* - pica - medidas da tipografia(papel) - não é recomendado em telas
+
+### Medidas Relativas
+*em* - relativa a altura-M de uma fonte
+*ex* - relativa a altura-X de uma fonte
+*rem* - igual ao em, porém relativo ao root. ou seja a fonte configurada no body (neste caso)
+*vw* - largura da viewport em porcentagem
+*vh* - altura da viewport em porcentagem
+
+*16px* geralmente = 1em
+
+*viewport* - tamanho da tela
+A recomendação da w3c é utilizar px e em
+             em tamanho de fonte
+
 ## Extensões e sites
 
 [FontsNinja](https://www.fonts.ninja/)
