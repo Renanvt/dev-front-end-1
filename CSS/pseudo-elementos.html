@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos em CSS</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        Pseudo-elementos mexem diretamente no conteúdo periférico do elemento
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /*PSEUDO-ELEMENTOS ::*/
+
+        /*Antes de todos os links*/
+        .especial::before {
+            content: '→';
+            /*Coloca uma seta pra direita no final de um link*/
+        }
+
+        /*Depois de todos os links*/
+        .especial::after {
+            content: '←';
+            /*Coloca uma seta pra esquerda no final de um link*/
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        /*PSEUDO-CLASSES :*/
+        /*Quando estiver já visitado*/
+        a:visited {
+            color: darkred;
+        }
+
+        /*Quando passar o mouse*/
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        /*Quando clickar*/
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: rgb(248, 107, 107);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do Cursoemvideo</a></li>
+    </ul>
+</body>
+
+</html>

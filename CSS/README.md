@@ -271,7 +271,7 @@ A recomendação da w3c é utilizar ```**px**``` e ```**em**``` em tamanho de fo
 
 ```font-family: sans-serif; ```
 
-O próprio s.o escolhe qual fonte sans-serif vai colocar
+O próprio SO escolhe qual fonte sans-serif vai colocar
 
 ## Peso da fonte
 
@@ -296,7 +296,8 @@ Consigo dizer várias coisas em uma mesma linha, nessa ordem:
 ``` @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap'); ```
 ## Fontes externas
 
-``` @font-face {
+``` 
+@font-face {
 font-family: 'Love';
 src: url('img/fontes/love\ larry\ ttf. ttf') 
 format('truetype')
