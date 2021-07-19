@@ -9,6 +9,8 @@
  [Cores](#Cores)
 
  [Fontes](#Fontes)
+
+ [Box-model](#Box-model)
    
            
 # Comandos CSS
@@ -242,27 +244,27 @@ Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  oc
 ## Tamanho da fonte e suas medidas
 
 ### Medidas Absolutas
-## ```**cm, mm, in, px, pt, pc**```
+## ```cm, mm, in, px, pt, pc```
 
-```**cm**``` - centimetros <br/>
-```**mm**``` - milímetro <br/>
-```**in**``` - polegada <br/>
-```**px**``` - pixel <br/>
-```**pt**``` - ponto - medidas da tipografia(papel) <br/>
-```**pc**``` - pica - medidas da tipografia(papel) - não é recomendado em telas <br/>
+```cm``` - centimetros <br/>
+```mm``` - milímetro <br/>
+```in``` - polegada <br/>
+```px``` - pixel <br/>
+```pt``` - ponto - medidas da tipografia(papel) <br/>
+```pc``` - pica - medidas da tipografia(papel) - não é recomendado em telas <br/>
 
 ### Medidas Relativas
-```**em**``` - relativa a altura-M de uma fonte <br/>
-```**ex**``` - relativa a altura-X de uma fonte <br/>
-```**rem**``` - igual ao em, porém relativo ao root. ou seja a fonte configurada no body (neste caso) <br/>
-```**vw**``` - largura da viewport em porcentagem <br/>
-```**vh**``` - altura da viewport em porcentagem <br/>
+```em``` - relativa a altura-M de uma fonte <br/>
+```ex``` - relativa a altura-X de uma fonte <br/>
+```rem``` - igual ao em, porém relativo ao root. ou seja a fonte configurada no body (neste caso) <br/>
+```vw``` - largura da viewport em porcentagem <br/>
+```vh``` - altura da viewport em porcentagem <br/>
 
 **16px** geralmente = 1em
 
 **viewport** - tamanho da tela
 
-A recomendação da w3c é utilizar ```**px**``` e ```**em**``` em tamanho de fonte
+A recomendação da w3c é utilizar ```px``` e ```em``` em tamanho de fonte
 
 ## PESO, ESTILO E SHORTHAND
 ```font-family: Arial, Helvetica, sans-serif;```
@@ -310,4 +312,11 @@ format('truetype')
 [Whatfontis](https://www.whatfontis.com/)<br/>
 [Fontsquirrel](https://www.fontsquirrel.com/)<br/>
 [Myfonts](https://www.myfonts.com/)<br/>
+
+# Box model
+
+![Box-model-aninhamento](img/box-model-aninhamento.png)
+![Box-model](img/Box-Model.png)
+![Box-model2](img/Box-Model2.png)
+![Box-model3](img/Box-model-3.png)
 
