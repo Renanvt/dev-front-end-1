@@ -29,6 +29,8 @@
 | `<time>` | Definição de tempo ou data. |
 | `<wbr>` | Quebra de palavra. Para definir uma oportunidade de quebra de linha. |
 
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 55
+
 # Lista de campos type
 
 | Tag | Significado |
@@ -46,6 +48,8 @@
 | `<time>` | usado para mostrar a hora do sistema. |
 | `<url>` |   cria campos para entrada de endereços de e-mail seguindo o padrão URL. |
 | `<week>` | mostra campo formatado para escolha de dias de semana.A implementação desses elementos é feita usando a seguinte sintaxe: `<input type=“elemento” name=“nome_elemento”/>` |
+
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 57
 
 # Listagem de atributos
 
@@ -72,7 +76,7 @@
 | `Post` |  Outro parâmetro de `<FORM>` para definir o envio mais seguro dos dados sem exibição deles no endereço indicado na barra de endereços do navegador, ao passo que “GET” exibe esses dados na barra e não se preocupa com o ocultamento de dados |
 | `Onclick` | é um parâmetro para indicar uma ação para um clique do mouse, podendo exibir informações em caixas de mensagem. |
         
-       
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 62-63
 
 # Listagem de tags formulários
 | Atributo | Significado |
@@ -104,6 +108,8 @@
 |       **DATALIST**  |  Cria uma lista de opções para um campo |
 |       **OPTION**   |   Parâmetro para definição do tipo de campo de agrupamento |
 |       **VALUE**    |   Parâmetro para definição de valor padrão de um campo |
+
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 61-62
         
 # Audio
 
