@@ -55,6 +55,8 @@
 | `list-style-type` | Seletor para criar tópicos em listas usando opções como:square (quadrado), circle (círculo), upper-roman (números romanos), lower-alpha (letras) |
 | `list-style-image` |Utiliza imagens gravadas como marcadores em listas |
 
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 71-72
+
 ## Comandos complementares
 | Comandos | Significado |        
 | ------ | ------ |
@@ -83,6 +85,8 @@
 | `margin` | Seletor para posicionamento de elementos (**margin: auto;**) |
 | `position` | Seletor para posicionamento definido por parâmetros:  **position: absolute;** para dimensões e posição exatas; **position: relative;** para ajustes proporcionais a janela|
 | `opacity` |Propriedade de transparência entre 0 e 1 (**opacity: 0.4;**)|
+
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 76-77
 
 ## Parametros adicionais para CSS 3
 
@@ -117,6 +121,7 @@
 | `filter` | **invert()**: Inverte as cores da imagem no estilo negative (%) **opacity()**: Transparência da imagem (%) **saturate()**: Saturação da imagem (%) **sepia()**: Converte a imagem no estilo envelhecida (%) |
 
 
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 78-81
 
 Em geral, os comandos CSS são chamados seletores e seguem uma sintaxe como a do exemplo a seguir:
 `SELETOR {PROPRIEDADE:VALOR; PROPRIEDADE:VALOR;}`
@@ -144,7 +149,10 @@ Um arquivo contendo os seletores de estilo CSS deve ser gravado em um arquivo de
  Um `<meta>` elemento viewport dá as instruções do navegador sobre como controlar dimensões e escalonamento da página.
     A largura = largura do dispositivo parte define a largura da página a seguir à tela de largura do dispositivo (que irá variar dependendo do dispositivo).
     A escala inicial = 1,0 parte define o nível de zoom inicial, quando a página é carregada pela primeira vez pelo browser.
-    
+
+
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 83
+
 ## Ter diferentes medidas para ajustar tamanho de fonte é útil?
 
 Imagine um site mobile ou um site para telas maiores ou projeções. Ao invés de você mudar as fontes para cada elemento, é possível ajustar diretamente o tamanho da fonte padrão para cada tag HTML de texto.
@@ -160,7 +168,6 @@ h2{  font-size: 1.50em;}
 
 p{  font-size: 0.8em;}
 ```
-> Fonte:Unicesumar
 
 Mudando o valor de porcentagem da FONT do elemento BODY, proporcionalmente, a fonte e todo conteúdo padrão da página são ajustados.
 
@@ -173,7 +180,8 @@ h1 {  font-size: 3.00rem;}
 h2 {  font-size: 2.00rem;}
 p {  font-size: 1.50rem;}
 ```
-> Fonte: Unicesumar
+> 
+> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 74-75
 
 Alguns  navegadores  podem  ter  problemas  com  essas  unidades,  mas  isso  ocorre  mais  com  navegadores  antigos,  em  que  é  interessante  o  uso  de  PX  ou porcentagem mesmo como unidade padrão.
 
