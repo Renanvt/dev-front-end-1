@@ -324,7 +324,11 @@ format('truetype')
 # Box model
 
 ![Box-model-aninhamento](img/box-model-aninhamento.png)
+> Fonte: Gustavo Guanabara, *modelo de Caixas*. Disponibilizado em: https://gustavoguanabara.github.io/
 ![Box-model](img/Box-Model.png)
+> Fonte: Gustavo Guanabara, *modelo de Caixas*. Disponibilizado em: https://gustavoguanabara.github.io/
 ![Box-model2](img/Box-Model2.png)
+> Fonte: Gustavo Guanabara, *modelo de Caixas*. Disponibilizado em: https://gustavoguanabara.github.io/
 ![Box-model3](img/Box-model-3.png)
+> Fonte: Gustavo Guanabara, *modelo de Caixas*. Disponibilizado em: https://gustavoguanabara.github.io/
 
