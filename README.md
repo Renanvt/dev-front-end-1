@@ -53,3 +53,11 @@ Agora chegou sua vez! A partir de agora, você poderá definir o seu processo e 
 com o cliente até a entrega e suporte. A emoção de colocar os primeiros sites (e projetos) no ar não tem preço.
 
 > Fonte: HERBERT, R. B. Introdução ao PHP. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 79-80
+
+# Licença
+Veja ```licença``` para mais informações.
+
+# Contatos
+* 21974248505
+* 21980178229
+* https://www.linkedin.com/in/jonatan-renan/
