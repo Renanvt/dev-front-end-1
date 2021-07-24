@@ -52,4 +52,4 @@ Depois de pronto, fica apenas para a empresa ou o profissional o suporte ao clie
 Agora chegou sua vez! A partir de agora, você poderá definir o seu processo e até mesmo começar alguns projetos pessoais com base em um processo bem definido para entender o quanto antes como funciona um projeto web do começo ao fim. Da venda
 com o cliente até a entrega e suporte. A emoção de colocar os primeiros sites (e projetos) no ar não tem preço.
 
-Fonte: HERBERT, R. B. Introdução ao PHP. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 79-80
+> Fonte: HERBERT, R. B. Introdução ao PHP. In: HERBERT, R. B. **Programação back end I**. 22.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 79-80
