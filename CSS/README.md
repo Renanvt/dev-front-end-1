@@ -1,16 +1,16 @@
 # Tópicos
 
- [Comandos essenciais](#Comandos-css)
+## [Comandos essenciais](#Comandos-css)
 
- [Inserir CSS no documento](#Inserir-CSS-no-documento)
+## [Inserir CSS no documento](#Inserir-CSS-no-documento)
 
- [Fontes css](#Ter-diferentes-medidas-para-ajustar-tamanho-de-fonte-é-útil)
+## [Fontes css](#Ter-diferentes-medidas-para-ajustar-tamanho-de-fonte-é-útil)
 
- [Cores](#Cores)
+## [Cores](#Cores)
 
- [Fontes](#Fontes)
+## [Fontes](#Fontes)
 
- [Box-model](#Box-model)
+## [Box-model](#Box-model)
    
            
 # Comandos CSS
