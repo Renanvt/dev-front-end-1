@@ -1,12 +1,12 @@
 # Estrutura de uma página em HTML 5
 
 ![EstruturaDeUmaPáginaHTML5](HTML5/img/EstruturaDeUmaPáginaHTML5.png)
-> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 54
+> Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 54
 
 ## Exemplo
 
 ![ExemploEstrutura](HTML5/img/ExemploEstrutura.png)
-> Fonte: Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 63-65
+> Fonte: CESAR, T. HTML5 e CSS3. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 63-65
 
 # Passos para construção de sites
 
