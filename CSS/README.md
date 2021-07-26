@@ -6,9 +6,9 @@
 
 ## [Fontes css](#Ter-diferentes-medidas-para-ajustar-tamanho-de-fonte-é-útil)
 
-## [Cores](#Cores)
+ [Cores](#Cores)
 
-## [Fontes](#Fontes)
+ [Fontes](#Fontes)
 
 ## [Box-model](#Box-model)
    
