@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis Globais em CSS</title>
+    <style>
+        /*Tudo que eu colocar aqui, vai servir para o documento inteiro*/
+
+        :root {
+            /*Variáveis globais*/
+            --cor0: #c5ebd6;
+            --cor1: #83e1ad;
+            --cor2: #3ddc84;
+            --cor3: #2fa866;
+            --cor4: #1a5c37;
+            --cor5: #063d1e;
+            --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+            --fonte-destaque: 'Bebas Neue', cursive;
+            --fonte-android: 'Android', cursive;
+        }
+
+        body {
+            background-color: var(--cor0);
+            font-family: var(--fonte-padrao);
+        }
+
+        header {
+            background-color: var(--cor4);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        
+    </header>
+</body>
+
+</html>
