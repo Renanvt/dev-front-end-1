@@ -41,6 +41,8 @@
 | `try ... catch` | Comandos de tratamento de erros em blocos de comandos.|
 | `var` |Define a declaração de uma variável. |
 
+> Fonte: Fonte: CESAR, T. Javascript e Jquery. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 95
+
 # Operadores da linguagem Javascript
 
 | PALAVRA-CHAVE | DESCRIÇÃO |
@@ -60,6 +62,8 @@
 | `<` | Menor que |
 | `>=` |Maior ou igual a |
 | `<=` | Menor ou igual a |
+
+> Fonte: Fonte: CESAR, T. Javascript e Jquery. In: CESAR, T. **Programação front end**. 3.ed.rv. Maringa, PR: Centro Universiário de Maringá, 2019. p. 96
 
 ## Instalação Jquery
 ```
