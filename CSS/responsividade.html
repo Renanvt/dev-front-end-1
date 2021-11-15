@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /*Diminui a largura*/
+            /*width: 800px;*/
+            
+            /*Largura máxima e largura mínima, Quando for menor que 800px vai quebrar, quando for menor que 320px não vai quebrar mais*/
+
+            /*Tamanho mínimo de um celular normal*/
+            min-width: 280px;
+            max-width: 800px;
+
+            /*Com essa configuração o conteúdo se adapta até o tamanho de 320px*/
+            /*Centraliza na página*/
+            margin: auto;
+        }
+
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad recusandae quaerat eveniet ullam praesentium porro vel ab, doloribus reiciendis asperiores? Error deserunt quaerat magnam iste doloribus alias recusandae molestiae.</p>
+        <picture>
+            <!--Quando chega ao tamanho de 600px, carrega a imagem da irina block menor-->
+            <source media="(max-width: 600px)" srcset="src/img/irina-blok-pq.jpg" >
+            <img src="src/img/irina-blok.jpg" alt="Irina Block">
+        </picture>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad recusandae quaerat eveniet ullam praesentium porro vel ab, doloribus reiciendis asperiores? Error deserunt quaerat magnam iste doloribus alias recusandae molestiae.</p>
+    </main>
+</body>
+</html>
