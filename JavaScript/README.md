@@ -27,6 +27,8 @@
 [Objetos](#objetos)
 
 [Objetos Principais](#objetos-principais)
+
+[Doom]()
 # Strings
 
 Em JavaScript podemos usarVamos começar simples embora. Os números podem ser escritos com ou sem decimais. Como isso: strings para armazenar e manipular texto.
@@ -733,6 +735,146 @@ Em seguida, chamamos a função uma vez a cada segundo, usando o método setInte
 **Atenção**
 A propriedade innerHTML define ou retorna o conteúdo HTML de um elemento.
 No nosso caso, estamos alterando o conteúdo HTML do corpo do nosso documento. Isso substitui o conteúdo a cada segundo, em vez de imprimi-lo repetidamente na tela.
+
+# DOOM
+
+Quando você abre qualquer página da Web em um navegador, o HTML da página é carregado e renderizado visualmente na tela.
+
+Para fazer isso, o navegador constrói o **Document Object Model** dessa página, que é um modelo orientado a objetos de sua estrutura lógica.
+
+O DOM de um documento HTML pode ser representado como um conjunto aninhado de caixas:
+
+![DOOM](img/DOOM.PNG)
+
+JavaScript pode ser usado para manipular o DOM de uma página dinamicamente para adicionar, excluir e modificar elementos.
+
+O DOM representa um documento como uma estrutura em árvore.
+Os elementos HTML tornam-se **nós** inter-relacionados na árvore.
+Todos esses nós na árvore têm algum tipo de relação entre si.
+Os nós podem ter nós **filhos**. Nós no mesmo nível de árvore são chamados **irmãos**.
+Por exemplo, considere a seguinte estrutura:
+
+![DOOM](img/DOOM.PNG)
+
+Para o exemplo acima:
+<html> tem dois filhos (<head>, <body>);
+<head> tem um filho (<title>) e um pai (<html>);
+<title> tem um pai (<head>) e nenhum filho;
+<body> tem dois filhos (<h1> e <a>) e um pai (<html>);
+
+É importante entender os relacionamentos entre os elementos em um documento HTML para poder manipulá-los com JavaScript.
+
+### O Objeto Document
+
+Existe um objeto de documento predefinido em JavaScript, que pode ser usado para acessar todos os elementos no DOM.
+Em outras palavras, o objeto de documento é o proprietário (ou **root** ) de todos os objetos em sua página da web.
+Portanto, se você quiser acessar objetos em uma página HTML, sempre comece acessando o objeto do documento.
+Por exemplo:
+
+```js
+document.body.innerHTML = "Some text";
+```
+
+Como **body** é um elemento do DOM, podemos acessá-lo usando o objeto **document** e alterar o conteúdo da propriedade **innerHTML**.
+
+A propriedade **innerHTML** pode ser usada em quase todos os elementos HTML para alterar seu conteúdo.
+
+# Selecionando Elementos
+
+Todos os elementos HTML são **objetos**. E como sabemos cada objeto tem **propriedades** e **métodos**.
+O objeto **document** possui métodos que permitem selecionar o elemento HTML desejado.
+Esses três métodos são os mais usados ​​para selecionar elementos HTML:
+
+```js
+//finds element by id
+document.getElementById(id) 
+
+//finds elements by class name
+document.getElementsByClassName(name) 
+
+//finds elements by tag name
+document.getElementsByTagName(name)
+```
+No exemplo abaixo, o método getElementById é usado para selecionar o elemento com id="demo" e alterar seu conteúdo:
+
+```js
+var elem = document.getElementById("demo");
+elem.innerHTML = "Hello World!";
+```
+
+O exemplo acima assume que o HTML contém um elemento com id="demo", por exemplo ```<div id="demo"></div>```.
+
+O método **getElementsByClassName()** retorna uma coleção de todos os elementos do documento com o nome de classe especificado.
+Por exemplo, se nossa página HTML contiver três elementos com class="demo", o código a seguir retornará todos esses elementos como um array:
+
+```js
+var arr = document.getElementsByClassName ("demo");
+//acessando o segundo elemento
+ 
+arr[1].innerHTML = "Hi";
+```
+Da mesma forma, o método **getElementsByTagName** retorna todos os elementos do nome da tag especificada como uma matriz.
+O exemplo a seguir obtém todos os elementos de parágrafo da página e altera seu conteúdo:
+
+```js
+<p>hi</p>
+<p>hello</p>
+<p>hi</p>
+<script>
+var arr = document.getElementsByTagName("p");
+for (var x = 0; x < arr.length; x++) {
+  arr[x].innerHTML = "Hi there";
+}
+</script>
+```
+O script resultará no seguinte HTML:
+
+```js
+<p>Hi there</p>
+<p>Hi there</p>
+<p>Hi there</p>
+```
+
+Usamos a propriedade length do array para percorrer todos os elementos selecionados no exemplo acima.
+
+# Trabalhando com DOOM
+
+Cada elemento no DOM possui um conjunto de propriedades e métodos que fornecem informações sobre seus relacionamentos no
+elemento DOM:
+
+**childNodes** retorna uma matriz de nós filho de um elemento.
+
+elemento.**firstChild** retorna o primeiro nó filho de um elemento.
+
+elemento.**lastChild** retorna o último nó filho de um elemento.
+
+elemento.**hasChildNodes** retorna true se um elemento tiver nós filhos, caso contrário, false.
+
+elemento.**nextSibling** retorna o próximo nó no mesmo nível de árvore.
+
+elemento.**anteriorSibling** retorna o nó anterior no mesmo nível de árvore.
+
+elemento.**parentNode** retorna o nó pai de um elemento. Podemos, por exemplo, selecionar todos os nós filhos de um elemento e alterar seu conteúdo:
+
+```js
+<html>
+    <body>
+        <div id="demo">
+            <p>Algum texpo</p>
+            <p>Algum outro texpo</p>
+        </div>
+        <script>
+         var a = document.getElementById("demo");
+         var arr = a.childNodes;
+         for(var x=0;x<arr.length;x++){
+             arr[x].innerHTML = "new text";
+         }
+         </script>
+    </body>
+</html>
+
+```
+O código acima altera o texto de ambos os parágrafos para "novo texto".
 # Principais palavras-chave da linguagem Javascript
 
 | PALAVRA-CHAVE | DESCRIÇÃO |
