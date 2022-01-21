@@ -757,10 +757,16 @@ Por exemplo, considere a seguinte estrutura:
 ![DOOM](img/DOOM.PNG)
 
 Para o exemplo acima:
+
+```js
 <html> tem dois filhos (<head>, <body>);
+
 <head> tem um filho (<title>) e um pai (<html>);
+
 <title> tem um pai (<head>) e nenhum filho;
+
 <body> tem dois filhos (<h1> e <a>) e um pai (<html>);
+```
 
 É importante entender os relacionamentos entre os elementos em um documento HTML para poder manipulá-los com JavaScript.
 
