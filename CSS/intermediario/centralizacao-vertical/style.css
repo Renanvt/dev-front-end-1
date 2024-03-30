@@ -1,7 +1,7 @@
 #containner{
+    height:96vh;
     position: relative; /*por padrao sempre a caixa é relativa*/
     background-color:purple;
-    height:96vh;
     padding: 10px;
     background-image:url('https://i.imgur.com/TZlyqpv.png');
     background-size: 100% 100%; /*widht, height*/
@@ -9,15 +9,36 @@
 }
 
 #conteúdo{
-    position: absolute ;
+    position: absolute ;/* Deixo o objeto solto dentro do conteinner, com isso 
+    posso configuras as propriedades left e top */
     background-color:yellow;
     background-image:url('https://i.imgur.com/TZlyqpv.png');
-    background-size: 100% 100%;
+    background-size: 100% 100%; /* Faz com que a imagem ocupe o contenner inteiro */
     height:150px;
     width:200px;
-    left:50%;
-    top:50%;
+    left:50%; /* Metade do left = centro horizontal, entretanto, o ponto âncora não está na origem do contener */
+    top:50%; /* Metade do top = centro vertical o ponto âncora não está na origem do contener */
     
     transform: translate(-50%, -50%)
-    /*translate(- left, - top;+ right, +bottom)*/
+    /*
+    Translate - A função de translate serve para mover o elemento para os lados ou para cima/baixo. Mudar o seu "ponto de alinhamento"... 
+    A sintaxe pode ser especifica para um dos eixos x/y ( translateX ou translateY ), como pode ser apenas translate, abrangendo os dois eixos ( x, y ). Obs.: Para ir para o lado esquerdo ou para cima, use valores negativos.
+    
+    O PRIMEIRO VALOR representa o deslocamento horizontal do ponto, e o SEGUNDO VALOR representa o deslocamento vertical desse ponto.
+    Utilizamos valores em % para ajustar o ponto de referência exatamente no meio da box (-50% -50%), mas dependendo do que você quer fazer, 
+    também pode usar valores em px ou outra unidade de medida.
+    
+    translate(- left, - top; +right, +bottom)*/
+
+    /* Rotate - Como o nome já sugere, é utilizada para rotacionar o elemento, de 0 a 360 graus. Utilizando valores positivos, a rotação será realizada no sentido horário e, utilizando valores negativos, no sentido Anti-horário. */
+
+    /* Scale - Utilizado para redimensionar os elementos, tendo como escala padrão o valor "1". Valores maiores que 1, aumentarão o tamanho do elemento, e valores menores que 1 diminuirão sua escala. */
+
+    /* skew - É utilizado para "distorcer" os elementos, alterando os ângulos.
+ 
+ Nota: A propriedade de estilo "transform" e suas funções é muito utilizada juntamente com a pseudo-classe "hover" e com a propriedade de estilo "transition" para criar efeitos visuais.
+ 
+ 
+    */
+
 }
