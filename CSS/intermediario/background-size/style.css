@@ -4,11 +4,15 @@ body{
         background-color:black;
         background-image: url('https://i.imgur.com/cKKMq5v.jpg');
         background-repeat:no-repeat;
-        background-position: center top;
-        background-size: 100%;/*da um fetch na tela, amplia e diminui a imagem conforme o tamanho da tela*/
+        background-position: center center;
+        /*background-size: 100%;/*  /*da um fetch na tela, amplia e diminui a imagem conforme o tamanho da tela, entretando deixa uma espaço preto embaixo*/
+        /*background-size: contain;/*  /*Faz com que a imagem seja 100% exibida, sem cortar a imagem, se diminui a largura, cria duas barra preta horizontal e vertical*/
+        background-size:cover; /*Cobre/Preenche a tela inteira, mesmo que pra isso tenha que picotar/cortar na imagem*/
+
+    /*Por padrão o background-size é auto*/
     }
     main{
-        background-color:white;
+        background-color:white; /* O Ideal é que sempre configure uma cor de fundo por motivos técnicos*/
         width:400px;
         margin: auto;
         padding:10px;

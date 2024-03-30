@@ -5,16 +5,19 @@ body{
         background-image: url('https://i.imgur.com/cKKMq5v.jpg');
         background-repeat:no-repeat;
         background-position: center center;
-        background-size: contain;/*faz com que a imagem seja sempre 100% exibida*/
+        background-size: cover;
+        background-attachment: fixed;
+        /*fixed- Fundo fica fixo junto com o conteudo ao arrastar com o scroll do mpuse
+        */
+        
     }
     main{
         background-color:white;
-        width:400px;
+        max-width:700px;
         margin: auto;
         padding:10px;
         border-radius: 15px;
         border: 1px solid darkblue;
     }
-    
     
     

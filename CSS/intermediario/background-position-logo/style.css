@@ -3,7 +3,7 @@ body{
         height:98vh;
         border: 1px dashed black;
         background-image:url('https://i.imgur.com/Qtm0nKN.jpg');
-        background-position: center center ;
+        background-position: center center;
         background-size: 100px;
         background-repeat: no-repeat;
     }
