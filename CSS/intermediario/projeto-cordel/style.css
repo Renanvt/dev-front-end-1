@@ -1,18 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 body {
     margin: 0px;
-    padding:0px;
+    padding: 0px;
+    height: 98vh;
+    
 }
 
 header{
+    margin: opx;
     height:200px;
     background-color:black;
 }
 h1{
- color:white
+ color:white;
+ font-family: 'Passion one', sans-serif;
+ font-weight: bold;
+ font-size: 8em;
+ 
 }
 
 h3{
     color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer{
@@ -27,5 +39,6 @@ main{
 
 main > p{
     padding-left: 30px;
+    font-family: 'Sriracha', cursive;
     
 }

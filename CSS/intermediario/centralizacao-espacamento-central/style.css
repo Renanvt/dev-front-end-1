@@ -1,0 +1,29 @@
+#conteudo {
+    background-color: lightcoral;
+    height: auto;  
+    width: 100%;            
+    padding: 5px;
+    display: flex;
+    flex-direction: row; /* disponibila o conteinner em forma de linha*/
+    justify-content: space-evenly;  /*Alinhamento horizontal, ou seja, dispensa o "margin: auto". Nesse caso os quadrados serão distribuídos de forma similar à propriedade space around, mas com os espaçamentos entre os itens (independente de quantos sejam) e o espaço das bordas igual*/
+    /*align-items: center;*/ /*Alinhamento vertical*/
+}
+
+.times {
+    width: 150px; 
+    height: 150px;  
+    margin: 10px; 
+    color: #000; 
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+
+.times {
+    width: 150px; 
+    height: 150px;  
+    margin: 10px; 
+    color: #000; 
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;   
+}
