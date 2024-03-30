@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding:0px;
+}
+
+header{
+    height:200px;
+    background-color:black;
+}
+h1{
+ color:white
+}
+
+h3{
+    color:white;
+}
+
+footer{
+    background-color:black;
+    color: white;
+    margin:0px;
+}
+
+main{
+    max-width: 100px;
+}
+
+main > p{
+    padding-left: 30px;
+    
+}

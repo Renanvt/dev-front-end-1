@@ -1,0 +1,8 @@
+body{
+    /*Faz com que os objetos de body sejam redimensionados a altura automaticamente de acordo com a view port*/
+        height:98vh;
+        background-image: url('https://i.imgur.com/cKKMq5v.jpg');
+        background-repeat:no-repeat;
+        background-position: center center;
+    }
+    

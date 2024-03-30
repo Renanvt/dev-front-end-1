@@ -1,0 +1,37 @@
+div.rect{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+  }
+  
+  div#rect1{
+    background-color: blue;
+  }
+  
+  div#rect2{
+    background-image: linear-gradient(to bottom, orange, red);
+  }
+  
+  
+  div#rect3{
+    background-image: url('https://i.imgur.com/aP7ekRb.png');
+    
+  }
+  
+  div#rect4{
+    background-image: url('https://i.imgur.com/xEiSEsU.png');
+    
+  }
+  
+  div#rect5{
+    background-image: url('https://i.imgur.com/SqBVYUc.png');
+    
+  }
+  
+  
+  div#rect6{
+    background-image: url('https://i.imgur.com/w4usSMu.png');
+  }
+  
