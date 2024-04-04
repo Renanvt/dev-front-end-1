@@ -1,48 +1,110 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-body {
+* {
     margin: 0px;
     padding: 0px;
-    height: 98vh;
-    
+
 }
 
-header{
-    margin: opx;
-    height:300px;
-    background-color:black;
+html, body {
+    min-height: 100vh;
+    background-color: dark;
 }
 
-div#titulo{
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header>h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    /* Coloca em letras maisculas, sendo as primeiras letras maiusculas */
+    /* text-transform: uppercase; */
+    /* Coloca em letras maisculas */
+}
+
+header>p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+section
+{
+    /* Efeito Parallax */
+    /* Altera o padding conforme for diminuindo e aumentando a viewport */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+/* div#titulo {
     position: absolute;
     left: 50%;
     top: 0%;
     transform: translate(-50%);
 }
 
-div#subtitulo{
+div#subtitulo {
     position: absolute;
     left: 50%;
     top: 20%;
     transform: translate(-50%);
 }
-h1{
- color:white;
- font-family: 'Passion one', sans-serif;
- font-weight: bold;
- font-size: 7em;
- font-style: normal;
- 
+
+h1 {
+    color: white;
+    font-family: 'Passion one', sans-serif;
+    font-weight: bold;
+    font-size: 7em;
+    font-style: normal;
+
 }
 
-h3{
-    color:white;
+h3 {
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+
 }
-main{
+
+main {
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -51,22 +113,23 @@ main{
 
 }
 
-main > div > p{
+main>div>p {
     padding-left: 20px;
     font-family: 'Sriracha', cursive;
     font-size: 3em;
-    
-}
-div#paragrafo2{
-background: black url(img/background001.jpg) center center /cover no-repeat fixed;
-}
-div#paragrafo2 > p{
-background-color: black;
+
 }
 
-footer{
-    background-color:black;
+div#paragrafo2 {
+    background: black url(img/background001.jpg) center center /cover no-repeat fixed;
+}
+
+div#paragrafo2>p {
+    background-color: black;
+}
+
+footer {
+    background-color: black;
     color: white;
-    margin:0px;
-}
-
+    margin: 0px;
+} */
