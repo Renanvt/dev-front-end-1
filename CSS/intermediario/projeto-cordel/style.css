@@ -11,20 +11,57 @@ body {
 
 header{
     margin: opx;
-    height:200px;
+    height:300px;
     background-color:black;
+}
+
+div#titulo{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%);
+}
+
+div#subtitulo{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
 }
 h1{
  color:white;
  font-family: 'Passion one', sans-serif;
  font-weight: bold;
- font-size: 8em;
+ font-size: 7em;
+ font-style: normal;
  
 }
 
 h3{
     color:white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+main{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+main > div > p{
+    padding-left: 20px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3em;
+    
+}
+div#paragrafo2{
+background: black url(img/background001.jpg) center center /cover no-repeat fixed;
+}
+div#paragrafo2 > p{
+background-color: black;
 }
 
 footer{
@@ -33,12 +70,3 @@ footer{
     margin:0px;
 }
 
-main{
-    max-width: 100px;
-}
-
-main > p{
-    padding-left: 30px;
-    font-family: 'Sriracha', cursive;
-    
-}

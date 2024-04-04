@@ -4,7 +4,7 @@
     height: auto;  
     width: 100%;            
     padding: 5px;
-    display: flex;
+    display: flex; /* permite criar layouts flexíveis e responsivos */
     flex-direction: row; /* disponibila o conteinner em forma de linha*/
     justify-content: center;  /*Alinhamento horizontal, ou seja, dispensa o "margin: auto". Nesse caso posicionará os itens ao centro da página*/
     /*align-items: center;*/ /*Alinhamento vertical*/
