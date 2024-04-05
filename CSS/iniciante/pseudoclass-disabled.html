@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 
+A pseudo-classe CSS :disabled representa qualquer elemento desativado. Um elemento é desativado se não puder ser ativado (selecionado, clicado, digitado etc.) ou aceitar o foco. O elemento também possui um estado habilitado, no qual ele pode ser ativado ou aceitar o foco.
+
+nput:disabled {
+  background: #ccc;
+}
+
+     -->
+    <script>
+        // Wait for the page to finish loading
+        document.addEventListener(
+            "DOMContentLoaded",
+            function () {
+                // Attach `change` event listener to checkbox
+                document.getElementById("billing-checkbox").onchange = toggleBilling;
+            },
+            false,
+        );
+
+        function toggleBilling() {
+            // Select the billing text fields
+            var billingItems = document.querySelectorAll('#billing input[type="text"]');
+
+            // Toggle the billing text fields
+            for (var i = 0; i < billingItems.length; i++) {
+                billingItems[i].disabled = !billingItems[i].disabled;
+            }
+        }
+    </script>
+
+    <style>
+        input[type="text"]:disabled {
+            background: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset id="shipping">
+            <legend>Shipping address</legend>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Address" />
+            <input type="text" placeholder="Zip Code" />
+        </fieldset>
+        <br />
+        <fieldset id="billing">
+            <legend>Billing address</legend>
+            <label for="billing-checkbox">Same as shipping address:</label>
+            <input type="checkbox" id="billing-checkbox" checked />
+            <br />
+            <input type="text" placeholder="Name" disabled />
+            <input type="text" placeholder="Address" disabled />
+            <input type="text" placeholder="Zip Code" disabled />
+        </fieldset>
+    </form>
+</body>
+
+</html>

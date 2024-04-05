@@ -11,7 +11,7 @@
             font-family: Arial, Helvetica, sans-serif;
             /* 
 
-            MEDIDAS
+            # MEDIDAS
 
             Medidas Absolutas
             cm, mm, in(polegadas), px, pt, pc
@@ -41,27 +41,36 @@
             
             Para medidas de fonte a W3C recomenda o uso de PX e EM
 
-            PESOS
+            # PESOS
 
             Pesos literais
+            font-weight
             lighter normal bold bolder
+            
 
-        Pesos numéricos
-        100 - 900
+            Pesos numéricos
+            100 - 900
 
+            # ESTILO
+
+            font-style
+            normal italic oblique
+            text-decoration
+            underline unset
             */
             font-size: 2em;
 
         }
 
         h1 {
-            /* shorthand: style -> weight -> size -> nome/family -> serif  */
-            font: italic bolder 3em 'Lucida Sans', sans-serif;
+            /* shorthand font: style -> weight -> size -> nome/family -> serif  */
+            font: italic bolder 1em 'Lucida Sans', sans-serif;
         }
 
         h2 {
             /* Safe combination -> Usa a primeira fonte, se não achar arial, tenta a helvetica, se não achar a helvetica, tenta a sans-serif */
             font-family: 'Times New Roman', Times, Serif;
+            
         }
     </style>
 </head>
