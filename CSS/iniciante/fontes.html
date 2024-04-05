@@ -8,20 +8,60 @@
     <title>Fontes em CSS</title>
     <style>
         body {
-            font-size: 1em;
-            font-weight: bolder;
-            font-style: italic;
-            text-decoration: underline;
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+
+            MEDIDAS
+
+            Medidas Absolutas
+            cm, mm, in(polegadas), px, pt, pc
+
+            Todas essas medidas são baseadas no corpo da fonte.
+            Existem dispositivos com tela de alta resoluçao que podem utilizar por exemplo pixel de 4 componentes, logo, as dimensões podem ser alteradas de acordo com o dispositivo, então não é recomendado se você não souber em específico em qual tela será reproduzida
+
+            1in = 2,54cm
+            0.5in = 1,27cm
+            16 px é o tamanho normal da fonte, que vem por padrão
+            16px geralmente = 1em
+            16 *2 geralmente = 2em = 32px
+
+            pt e pc não se recomenda utilizar em material que será reproduzido em tela
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            em -> medida relativa ao tamanho M de uma letra de uma determinada fonte
+            ex -> medida relativa a altura x de uma fonte
+            rem -> tamanho relativo ao root, que é a fonte que está configurada no body
+            vw -> largura da viewport(tela) em porcentagem
+            vh -> largura da viewport(tela) em porcentagem
+
+            16px geralmente = 1em
+            viewport - tamanho da tela
+            
+            Para medidas de fonte a W3C recomenda o uso de PX e EM
+
+            PESOS
+
+            Pesos literais
+            lighter normal bold bolder
+
+        Pesos numéricos
+        100 - 900
+
+            */
+            font-size: 2em;
 
         }
 
         h1 {
-            /* shorthand: style -> weight -> size -> nome -> serif  */
+            /* shorthand: style -> weight -> size -> nome/family -> serif  */
             font: italic bolder 3em 'Lucida Sans', sans-serif;
         }
 
         h2 {
-            font: bold 2em 'Lucida Sans';
+            /* Safe combination -> Usa a primeira fonte, se não achar arial, tenta a helvetica, se não achar a helvetica, tenta a sans-serif */
+            font-family: 'Times New Roman', Times, Serif;
         }
     </style>
 </head>
