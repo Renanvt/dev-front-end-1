@@ -13,6 +13,7 @@
         : = pseudo-class
         :: = pseudo-element
         > = children
+        , = outro elemento
         Pseudo-elementos mexem diretamente no conteúdo periférico do elemento
         */
         body {
@@ -27,13 +28,13 @@
 
         /*PSEUDO-ELEMENTOS ::*/
 
-        /*Antes de todos os links*/
+        /*Adicione antes do link*/
         .especial::before {
             content: '→';
             /*Coloca uma seta pra direita no final de um link*/
         }
 
-        /*Depois de todos os links*/
+        /*Adicione depois do link*/
         .especial::after {
             content: '←';
             /*Coloca uma seta pra esquerda no final de um link*/
