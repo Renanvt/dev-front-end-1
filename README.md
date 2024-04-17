@@ -16,7 +16,7 @@
 4. Planejar as cores em uma ferramenta para construção de cores (Adobe Color)
 5. Planejar as fotes que serão usadaas na construção do site
 6. Começar a programar o site fazendo o seu corpo em html
-7. Declarar as variáveis globais no root em css
+7. Declarar as variáveis globais no root em css e resete os padding e margin para 0
    
 Você já parou para pensar como funciona um projeto na internet e quais são os passos
 mais comuns para a sua construção?
