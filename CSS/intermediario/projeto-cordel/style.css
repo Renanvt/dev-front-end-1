@@ -3,26 +3,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
+
 * {
     margin: 0px;
     padding: 0px;
 
 }
 
+root{
+    --fonte-destaque: "Passion One", sans-serif;
+    --fonte-padrao: "Verdana", Geneva, Tahoma, sans-serif;
+    --fonte-texto: "Sriracha", cursive;
+
+}
+
+
+
 html, body {
     min-height: 100vh;
     background-color: dark;
+    font-family: var(--fonte-padrao);
+}
+
+main{
+    margin-left: 33vw;
+    margin-right: 33vw;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    min-height: 200px;
 }
 
 header>h1 {
     padding-top: 50px;
+    font-size: 4vw;
+    font-family: var(--fonte-destaque);
     font-variant: small-caps;
+    
     /* Coloca em letras maisculas, sendo as primeiras letras maiusculas */
     /* text-transform: uppercase; */
     /* Coloca em letras maisculas */
@@ -30,6 +50,8 @@ header>h1 {
 
 header>p {
     padding-bottom: 50px;
+    font-size: 1.2em;
+    font-family: var(--fonte-subtitulo);
 }
 
 header a, footer a {
@@ -57,8 +79,14 @@ section
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte-texto);
+    font-size: 2vw;
+
 }
 
+section > p{
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -66,13 +94,34 @@ section.normal {
 
 
 section.imagem {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);   
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.281);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: -33vw;
+    margin-right: -33vw;
+    
 }
 
 section.imagem > p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.253);
+    display: inline-block;
+    padding: 8px;
+    margin-left: 33vw;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section#img01{
+    background-image: url('img/background001.jpg');
+    background-position: right center;
+   
+}
+
+section#img02{
+    background-image: url('img/background002.jpg');
+    
 }
 
 /* div#titulo {
