@@ -10,6 +10,14 @@
 
 # Passos para construção de sites
 
+1. Elabore o conteúdo que o site terá por escrito, pode ser no bloco de notas ou a mão
+2. Fazer o wireframe do site no papel
+3. Planejar o wireframe do site em uma ferramenta para construção de wireframe (Mockflow)
+4. Planejar as cores em uma ferramenta para construção de cores (Adobe Color)
+5. Planejar as fotes que serão usadaas na construção do site
+6. Começar a programar o site fazendo o seu corpo em html
+7. Declarar as variáveis globais no root em css e resete os padding e margin para 0
+   
 Você já parou para pensar como funciona um projeto na internet e quais são os passos
 mais comuns para a sua construção?
 
