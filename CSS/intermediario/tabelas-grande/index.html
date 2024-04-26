@@ -1,40 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criando tabelas grande</title>
-    <script>
-        var tot = G
-    </script>
+   
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
         table {
             width: 800px;
             border-collapse: collapse;
+            /* Cabeçalho Fixo em tabelas grandes (não funciona em todos os navegadores) */
+            position: relative;
         }
 
-        td,th {
+        /* Cabeçalho Fixo em tabelas grandes (não funciona em todos os navegadores) */
+        thead > tr > th {
+            position: sticky; /* Posicionamento Grudável */
+            top: -1px;
+            background-color: rgb(80, 80, 80) ;
+        }
+
+        td,
+        th {
             border: 1px solid black;
             padding: 10px;
         }
+        td.num{
+            text-align: right;
+        }
 
-        thead, tfoot{
-            background-color: gray;
+        thead,
+        tfoot {
+            background-color: rgb(80, 80, 80);
             color: white;
         }
+
+        /* Efeito zebrado:> De duas em duas coloque uma targa cinza, (2n, odd ou even) */
+        tbody > tr:nth-child(odd){/* PAR */
+            background-color: lightgrey;
+        }
+
+        tbody > tr:nth-child(even){ /* Impar */
+            background-color: lightgrey;
+        }
+
+        td.tot{
+            text-align: right;
+        }
     </style>
+ 
 </head>
 
 <body>
     <h1>Uso de tabelas grandes</h1>
+
     <!-- 
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            SCOPE -> Título da coluna
+            CAPTION -> Título
             THEAD
                 TR, TD, TH
             TBODY
@@ -42,86 +78,107 @@
             TFOOT
                 TR, TD, TH
      -->
-     <!-- TH por padrão não é aplicado a borda, sendo necessário aplicar de forma manual -->
+    <!-- TH por padrão não é aplicado a borda, sendo necessário aplicar de forma manual -->
 </body>
 <table>
+    <caption>População das unidades federativas</caption>
     <thead>
         <tr>
-
-            <th>Posição</th>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Posição</th>
+            <th scope="col" style="width: 400px;">Estado</th>
             <th>% de pop. total</th>
+            <th>População</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>1</td>
             <td>São Paulo</td>
-            <td class="num">45.919.049</td>
             <td class="num">21,9%</td>
+            <td class="num">45.919.049</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Minas Gerais</td>
-            <td class="num">21.168.791</td>
             <td class="num">10,1%</td>
+            <td class="num">21.168.791</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Rio de Janeiro</td>
-            <td class="num">17.264.943</td>
             <td class="num">8,2%</td>
+            <td class="num">17.264.943</td>
         </tr>
         <tr>
             <td>4</td>
             <td>Bahia</td>
-            <td class="num">14.070.054</td>
             <td class="num">7,1%</td>
+            <td class="num">14.070.054</td>
         </tr>
         <tr>
             <td>5</td>
             <td>Paraná</td>
-            <td class="num">11.480.957</td>
             <td class="num">6,4%</td>
+            <td class="num">11.480.957</td>
         </tr>
         <tr>
             <td>6</td>
             <td>Rio Grande do Sul</td>
-            <td class="num">11.377.239</td>
             <td class="num">6,4%</td>
+            <td class="num">11.377.239</td>
         </tr>
         <tr>
             <td>7</td>
             <td>Pernambuco</td>
-            <td class="num">9.557.071</td>
             <td class="num">4,5%</td>
+            <td class="num">9.557.071</td>
         </tr>
         <tr>
             <td>8</td>
             <td>Ceará</td>
-            <td class="num">9.162.078</td>
             <td class="num">4,3%</td>
+            <td class="num">9.162.078</td>
         </tr>
         <tr>
             <td>9</td>
             <td>Pará</td>
-            <td class="num">8.602.865</td>
             <td class="num">4,1%</td>
+            <td class="num">8.602.865</td>
         </tr>
         <tr>
             <td>10</td>
             <td>Santa Catarina</td>
-            <td class="num">7.168.788</td>
             <td class="num">3,4%</td>
+            <td class="num">7.168.788</td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <th>Total de habitantes</th>
-            <td>000</td>
+            <th scope="row">Total de habitantes</th>
+            <td class="tot" id="tot" colspan="3">00</td>
         </tr>
     </tfoot>
 </table>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quae, iure praesentium eveniet fuga incidunt dolore laboriosam obcaecati sequi ab molestias corporis voluptatibus commodi eligendi officiis repellendus omnis magni nihil!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur dignissimos molestiae nostrum repellendus veniam cum consectetur labore ducimus illo unde quidem magni omnis ipsam, est harum reiciendis saepe rerum? Fugit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis perferendis quae atque deserunt aperiam sequi doloribus cupiditate esse quo? Beatae culpa repudiandae corporis ea non id dolor ipsum nam totam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rerum magnam fugiat, quos error nam sapiente beatae esse culpa delectus distinctio odio placeat tempore? Explicabo odio quidem iusto. Illum, molestias!</p>
+
+
 
 </html>
