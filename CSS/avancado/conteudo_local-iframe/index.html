@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Local no iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+
+            display: block;
+            margin:auto;
+        }
+    </style>
+</head>
+<!-- Criando um iframe do nosso próprio conteúdo, não teremos problemas de carregamento e imcompatibilidade -->
+
+<!-- Existe um problema de indexação e relacionamento de conteúdo pelos mecanismo de busca quando utilizamos o iframe. Talvez você possa estar se perguntando se na hora de tornar uma tabela responsiva, deve usar o overflow ou a técnica do iframe citada aqui.  Nesse caso (tabelas), é melhor você tornar responsivo com o overflow-->
+
+<!-- Se você quizer uma relação entre o conteúdo do iframe com o conteúdo da sua página principal, é necessário colocar o conteúdo do iframe em uma div do que colocar em um iframe -->
+
+<!-- O Iframe permite a praticidade de ofereçer configurações de estilo CSS separadas dentro de uma mesma página -->
+<body>
+<h1>Teste com iframe</h1>
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores beatae maxime explicabo doloremque fuga sint quasi laboriosam vel corporis nesciunt amet enim, molestias velit, porro quam doloribus. Nobis, soluta. Molestia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores illo incidunt cupiditate itaque numquam consequuntur quaerat a nam tenetur nemo! Ea, sapiente omnis voluptatum voluptate aliquam maxime amet possimus quas!
+</p>
+
+<iframe src="pagina001.html" frameborder="0" height="500" width="500">
+    <p class="error">Infelizmente seu navegador não é compatível com isso</p>
+</iframe>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ut soluta error iste consequuntur officiis voluptates corrupti, deleniti alias minima id eaque obcaecati consequatur corporis voluptas perspiciatis hic voluptatibus consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, reprehenderit ullam at, autem blanditiis eos voluptates voluptatem nemo cum assumenda adipisci corporis nisi ex numquam nulla aut earum id? Quidem!</p>
+</body>
+</html>

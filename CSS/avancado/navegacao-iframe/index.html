@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95%;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Para fazer com que o conteúdo da página abra na mesma página dentro de um iframe, usamos os atributos name e target -->
+   
+   <!-- Sobre o parâmetro "name", de certa maneira ele serve para identificar um elemento, assim como o parâmetro "id" faz...
+
+    De forma geral, pode-se dizer que o id é importante para o browser (front-end), para a manipulação do DOM (arvore do documento) e CSS; e o name é importante para o servidor (back-end)
+
+    O name é principalmente usado para elementos de <form>, ou seja para campos de inserção de dados e é exatamente o name que identifica no servidor o campo. Quando o envio de um form é executado, os campos dele vão para o servidor num objeto cujas chaves são o name que esses elementos têm.
+-->
+    <h1>Faça uma escolha</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis commodi quo illo mollitia beatae consectetur
+        vero, esse cum itaque aliquam nihil. Laudantium, non. Deserunt voluptatibus adipisci fuga quod quo corrupti!</p>
+
+    <ul>
+
+        <li><a href="paginas/pagina001.html" target="frame">Primeira Página></a></li>
+        <li><a href="paginas/pagina002.html" target="frame">Segunda Página></a></li>
+        <li><a href="paginas/pagina003.html" target="frame">Terceira Página></a></li>
+
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ex deleniti, dolore odio id in laudantium
+        delectus doloribus perferendis nisi aut inventore illo quos animi molestias, odit debitis assumenda dolor. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Quis, corrupti adipisci. Voluptates officia provident
+        corporis unde saepe, nostrum maxime quod numquam explicabo architecto tempora. Accusantium praesentium rerum
+        consequatur ratione expedita?</p>
+
+    <iframe id="tela" name="frame" src="">
+        <p>
+            Infelizmente seu navegador não é compatível com isso
+        </p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis ab minus reiciendis, repellendus facilis recusandae iure alias exercitationem nemo fugiat quisquam praesentium laboriosam ea suscipit neque laudantium temporibus nisi aliquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis ipsum neque temporibus impedit enim illo culpa ab similique, sed fugiat reprehenderit cumque rerum ut nisi voluptas accusamus quod, beatae accusantium!</p>
+</body>
+
+</html>
