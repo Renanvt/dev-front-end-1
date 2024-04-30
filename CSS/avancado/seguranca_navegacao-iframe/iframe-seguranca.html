@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+</head>
+<body>
+<!-- Para bloquar todas as ações que são potencialmente maliciosas de site que colocamos dentro do iframe, utilize a configuração sandbox
+
+sandbox="sandbox -> Permite que você não capture nenhum tipo de informação, ligando todas as configurações de segurança do sandbox no máximo
+
+
+sandbox="allow-same-origin" -> Permitir conteúdo de mesma origem, no caso, no mesmo servidor hospedado o site
+sandbox="allow-forms" -> Permitir formulários
+sandbox="allow-scripts" -> Permitir formulários. html5 executa script quando carrega formulários
+
+
+O referrerpolicy="no-referre" ou politica de referença torna oque está dentro do iframe um pouco mais limitado, ou seja, oque estiver carregado dentro do iframe não irá coletar nenhum tipo de informação
+O referrerpolicy="no-refere-when-downgrade" ou politica de referença torna oque está dentro do iframe um pouco mais limitado
+
+
+-->
+
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, in? Laudantium in obcaecati nulla rerum quod quam dolorem, fuga quis laborum ratione iusto nihil ut neque praesentium aspernatur suscipit fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore, culpa cumque enim odit rerum excepturi blanditiis molestias sapiente laudantium illo exercitationem aspernatur similique accusantium. Quos praesentium assumenda nulla quas?</p>
+<iframe src="paginas/pagina004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+    Seu navegador não é compatível com isso
+</iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, in? Laudantium in obcaecati nulla rerum quod quam dolorem, fuga quis laborum ratione iusto nihil ut neque praesentium aspernatur suscipit fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit inventore, culpa cumque enim odit rerum excepturi blanditiis molestias sapiente laudantium illo exercitationem aspernatur similique accusantium. Quos praesentium assumenda nulla quas?</p>
+</body>
+</html>
