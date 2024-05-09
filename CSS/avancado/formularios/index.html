@@ -17,8 +17,30 @@
     <!-- Label for -> Cria um rótulo no input, fazendo com que o label seja uma "etiqueta" do input. É necessário colocar o id ou name dentro do for para não dificultar na identificação do navegador, criando assim uma relação-->
     <!-- Name -> Utilizado para linguagem php -->
     <!-- id -> Utilizado para css e javascript -->
+
+    <!-- MÉTODOS GET E POST -->
+    <!-- Método padrão, se eu não coloco nada -> GET -->
+    <!-- Método GET -> Coloca os dados na URL -->
+    <!-- Método POST -> Não coloca os dados na URL, porém, eles ficam visíveis quando inspecionamos elemento, sendo necessário o uso de HTTPS 
+    
+    Não existe diferença de performance entre o GET e o POST
+    -->
+
+    <!-- QUANDO USAR O GET -->
+    <!--  
+        • Em dados que não forem sensíveis, como nome, peso, altura, idade
+        • Quando você quer que a URL seja compartilhável
+        • Quando voce só pode enviar até 3.000 BYTES / 3 MIL LETRAS que é o máximo permitido pelo GET
+    -->
+
+    <!-- QUANDO USAR O POST -->
+    <!-- 
+        • Dados sensíveis (Estude HTTPS)
+        • Para envio de arquivos como fotos
+        • Se os dados tiverem mais de 3.000 BYTES
+     -->
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="GET" autocomplete="off">
         <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"> </p>
         <p><input type="submit" value="Enviar"></p>
