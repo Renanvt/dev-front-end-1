@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+<!-- Fieldset -> Grupo de campos, cria contorno sobre os campos 
+legend -> Legenda do grupo de campo, aparece encima como título
+-->
+
+     <!-- O autocomplete do email e telefone não é uma validação muito eficaz -->
+            <!-- pattern -> Você consegue definir um padrão de verificação por expressões regulares (REGEX) -->
+            <!-- Pesquisa por HTML TELEFONE PATTERN para poder aplicar nos seus formulário, porém, nenhum deles suficiente para conseguir bloquear ou permitir as entradas indevidas. Nesse caso se faz necessário o uso de PHP e JavaScript-->
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="20" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail" required autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" autocomplete="tel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx)xxxxx-xxxx">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
