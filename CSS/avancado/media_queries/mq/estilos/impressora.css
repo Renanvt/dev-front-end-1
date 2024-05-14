@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* Estilo para impressora */
+/* Fontes monoespacadas e com serifas são muito fáceis de ler no papel */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none; /* não será exibido o menu quando for imprimir */
+}
+
+article{
+    width: 100%; /* Ocupa a largura toda do papel */
+}
+
+article::after{
+    content: 'Esse artigo foi impresso através do site www.cursoemvideo.com'; /* Coloca uma referência após o término do artigo */
+}
