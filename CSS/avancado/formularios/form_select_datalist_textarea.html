@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- no optgroud o label é um atributo e deixa de ser um elemento  -->
+    <!-- selected -> Selecionado -->
+    <!-- datalist -> lista de dados. Quando clickar no texto, irá aparecer as opções -->
+    <!--  list -> Parâmetro do text. Quando clickar no texto, irá aparecer as opções  -->
+
+    <!-- Quando for colocar TEXTAREA, o ideal é mudar para o método POST para não ter problema de limitação -->
+    
+    
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <!--  A forma abaixo limita o usuário a digitar apenas a opção que estiver cadastrada  -->
+        <p>
+            <label for="iest">Estado</label>
+            <select name="Estado" id="iest">
+
+                <option value="" selected>--- Escolha ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norde</option>
+                </optgroup>
+              
+            </select>
+        </p>
+
+        <!-- A forma abaixo deixa o usuário digitar uma opção que não está cadastrada -->
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem: </label><br>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+</html>
