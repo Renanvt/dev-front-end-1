@@ -16,29 +16,52 @@ TV e grandes telas - +1200px (extra large)
 
 
 */
-@media print { /* IMPRESSÃO */
+@media print {
+    /* IMPRESSÃO */
     /* No papel não tem como imprimir background */
-   /*  body {
+    /*  body {
         background-image: url(../imagens/back-print.jpg); /* Desnecessário */
-   
-   *{
-        font-family: 'Courier New', Courier, monospace;
-   }
 
-   main {
-    border: 2px solid black;
-   }
-    main h1{
-        color: black;
-        text-shadow: none;
-        
+    * {
+        font-family: 'Courier New', Courier, monospace;
     }
 
-    img#phone { display: none;}
-    img#tablet {display: none;}
-    img#print {display: block;}
-    img#pc {display: none;}
-    img#tv {display:none;}
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    main h1 {
+        color: black;
+        text-shadow: none;
+
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: block;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
 }
 
 /* PARA DISPOSITIVOS MÓVEIS: */
@@ -50,43 +73,90 @@ TV e grandes telas - +1200px (extra large)
     
 } */
 
-@media screen and (min-width: 768px) and (max-width: 991px){ /* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* TABLET */
 
-    body{
+    body {
         background-image: url(../imagens/back-tablet.jpg);
     }
 
-    img#phone { display: none;}
-    img#tablet {display: block;}
-    img#print {display: none;}
-    img#pc {display: none;}
-    img#tv {display:none;}
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: block;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px){ /* DESKTOP */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* DESKTOP */
 
-    body{
+    body {
         background-image: url(../imagens/back-pc.jpg);
     }
-    img#phone { display: none;}
-    img#tablet {display: none;}
-    img#print {display: none;}
-    img#pc {display: block;}
-    img#tv {display:none;}
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: block;
+    }
+
+    img#tv {
+        display: none;
+    }
 }
 
-@media screen and (min-width:1200px){ /* GRANDES TELAS */
+@media screen and (min-width:1200px) {
+    /* GRANDES TELAS */
 
-    body{
+    body {
         background-image: url(../imagens/back-tv.jpg);
     }
 
-    main{
+    main {
         width: 700px;
     }
-    img#phone { display: none;}
-    img#tablet {display: none;}
-    img#print {display: none;}
-    img#pc {display: none;}
-    img#tv {display:block;}
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#print {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: block;
+    }
 }
