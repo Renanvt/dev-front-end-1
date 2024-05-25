@@ -1,6 +1,19 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 576px) and (max-width: 767px) {
-    
-    
+@media screen and (min-width:767px)
+/* Para tablets, desktops e telas grande */ {
+    i#burguer {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px; /* Quando a tela for grande, redimensione o main para 768 */
+    }
 }
